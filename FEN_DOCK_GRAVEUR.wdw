@@ -1,0 +1,1766 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_DOCK_GRAVEUR
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_DOCK_GRAVEUR
+ identifier : 0x284fd2131be232b2
+ internal_properties : CAAAAAgAAAA2UZc93YPJVRLGAGmsF12fJ2GWdF4QMkqJqpUUP7ENQebYhOYg00+4qWT7ka8W8HGHQCJjhtYX5iQKZ6zW6qDpSK3/dEEcolf8rVRUA902RjMJKetwhcnGJelA42Nwsn1wpotj+JCNdxKrYlRUGNbIs//0uer1VXsObf9p39caaK8EYE91fhBX1Xzc/nisjFbKoOHUxjN30DKatv+K7/oBvhHNL+93tJE/RCaUi3PH1YtktCKdD5OHnxhKfSZFEATesy8cauD39GyLd1AC0hO9C1asOZBjEKT69dtw/nsC02q1DRQWUePoRoln6O6ekeOynAZ+08ee/vdzyJVnIhjwNry7RcAwWVmyVqlr5F25Rr4mvZNuv4VsPnyZ70LU3Ty1pydL2w0+k7I1wX3SRgmwCp9DLBCWnOiM9PAx4xW1mOLqekRVr27daEupgELU04y6DPgz+Iz8sphI1DwoU9ReQk84xVHKhLFFBmlYGX3Sb6sGz5zfw23OcWiEOQTzLwTLncEvP+KivIihtGnM5EE9C5TSrb6OjZTvQaKTNLn2BIrIlfTr43AnyYnDlFSMEc3a02RaL2Qdrg8CBxjcKlEomvrhe5w6ZWQn5MUzqv9ak/snls7Q6KYp/oQB1M8OXfJvqXbXhgvXQLpcdMDzQOFoDbrikozrUJbRe9JS55wvwkaPOgWUu1EgwtjlN3TnVW+bocy3MfU5KPpqBBz+OAkUk/cwHHoKdFVqoBt1YzdZi/SbCtbnLexINC8tcAxaguFLsjyYiho4pyO52d70yzSEyryCqoneQOpjfHrAiekLiTgqCDysl5lf/hpHOMvKfpwLmYK3wAw+8qpD2jv0wTfrdltfVg77iT/LisdO1o8ICIyudWZJN4bQzc3R8W7rU8MS
+ properties :
+  width : 322
+  height : 275
+  widthClient : 320
+  heightClient : 243
+ controls :
+  -
+    name : IMG_TYPE_MEDIA
+    identifier : 0x284fd2251c4a79ae
+    internal_properties : CAAAAAgAAABbAEeRDTPvgsQg7HAi62+Psc2zYFdYTwcCGMLf6DN0zRccUc4Gdyzn2X6Gm8UobE0MRm5DD/wEVIPBumM7zOVM+cWEOy+Tn4UGVeN610MUQ6a0Ugpi5qyIUplmSooSZOaFnbLJMrvU1sMCFqABy/3Jo+kmllt0DX6OmwP7e6KIWTJfJ3n0hEk0aN4zj9mCLQVw5k8XTB2eFAgXSWaCDcVrxiJXcnlEmuZ2nWHHOiOOdU1CUUZvkAugGTVv2T4wcO4Yc138KGiwSZltLGj7fp6THTYybEeSje0uyIF1hY97l48SLrNdGh9eQ3KQTjPssVJ6tuf2PTEWbQtq6bwWMRfP/AZ8DjdJpjpD0PnpNzR4/rRf9GhTPcvSIQ+7okwzRg+RtBSEwXNM/+Ia6I150J9M36j7Okw16v4+JB88Cmn9mGLG445VzLthjZXbMau7uPxuZKqRCPFsNm5TQnF5hW4JbPVV7pB3yFkx5qDQCIPB7bzqtS4rtrCkOCmsYP3aVOJ9VkPCUVw8+dM=
+    properties :
+     x : 270
+     width : 50
+     height : 28
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         // Actualise
+         RécupèreInfoMedia()
+        type : 18
+  -
+    name : BTN_EJECTER_MEDIA
+    identifier : 0x284fd629223528c1
+    internal_properties : CAAAAAgAAAAEihxEJRueM+9nmoPk1rGKlYSj47MhI1RHdxC47cdIRdq3Zou/w+cCPRLmA7SJu41Rq8DkM4ch/CU4dxJRk+SoLKfU1hU/yPpejjGaH7tzEnNCHuExmGUdKlmWRAtUifKQkQpOFnPh+MT9hHVmDxCKPgX4UPiwOCKmOJeuKUGozYIUq4UYHfYzV5hch5YbUTi/AEzqdLnOeyVNw9lnL1yzdDsRKS6kmS95dK5MWBBqrpWnHOATAdIh00cMbrSs36zE4ZQFD/akVIaIZRaTO8PKsbfqoxWIAr8AJcxBL4NJ0ZLxCBLckGN0p8TKTNUxEeabPxWeqHk+qIa/Tnkz8j3nkOaWw9a9T7BB489qZKqcH4fLnE0YChJmQR6yUWiT+NoDG44DrkywO4bUhbhwnI292Ojtn+df1Zk/qM3z6pHupelOCVDnEGo3eX0tD0oydajXKbEQ5CbBzwngE8rzFJY+vg3Vs4oVVqamC0smbfO8bYWqc7rG7ATLeJcxxJPAtrgCydM5dQJc9oh+t/YFm/BoM7AL1DFnQO2VfKP1BXwMkVD3M8m21SmpubWhkKaHArlTE6jjRWRVqtYd9czIDtq3DwzN1VKmVzxCj/diSlngJJctmURonf+veC0AuZRJ8pRykXQih9bTiGcrXsoRfj9Xvam90pjAPicrvt1TiK1uDYnxs1Q8aZwegv3Qmvq1n0HLrHx19xBCp9gRi/k5ydRCeqqDeSbLFMYWz3hZiliwAkl86YavZQhkeZVIlqXzT3iaGladAaiWICfULvaFf0wx4A==
+    properties :
+     x : 288
+     y : 209
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Inverse l'état du tiroir
+         gbTiroirOuvert = pas gbTiroirOuvert
+         
+         // Provoque l'éjection du média inséré dans le graveur ou la fermeture du tiroir
+         GraveurEjecte(gbTiroirOuvert)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : JAUGE_REMPLISSAGE
+    identifier : 0x284fd76e2bc21deb
+    internal_properties : CAAAAAgAAACnh4apxDIy0a5NUmjGE4Q4nerMCiaWgathJChLEPD1PsGgdBqhHI7BHgRuCovm73+0QmPGYpIEGWYw2mW5M6rK6pkiCyi5S+ML76+q2ko/TFIAgrFwTDCT6OvjqgdQEv9F+wGs8ANUchs13hX6zKVYEPSaltkTr5YjtepqC7TEWvQ+IbYkVRHLoxNOsnjHBqRa8DYLauT/qpLTkHIG+GEeO+rwL6GXOKqVm5ObVH1RvvZHYKxMKaLKL2qRTcK3VpGepztNNMHIlG3n7yr8+mQcNzzjubmFITgOjXB8x7CJYaug95mxEuic91Qz6ojrczcb8XePi8958MfzItU4CjqiqoqldA49Jby5vpdkqdBFAY7hJVYE93qZjHWqxcnfWv+ON1qu1WKSwYipg7pmJG9sgxv8x4htukbT0bQIcC2BpdVXTejN31GxPdFkN9we7zqyGrmgqGno2P5kgm1QGetWykjuEBHv+78XkOKUrE5yG9t9Ov00VL7so9tLE3AEWMPhxddOhwSQycRgh6/pH9i3K1zO11oV3vsB9aTEek2pQfTs5D/hBQjYQOAPoSn5t58CkFvAyQc5x1uNTkBaooGms+L/pJj4HI6q5dGYd6grHz42ZaP48ykO1lqNrAgjmVxlUO66u6bRvGSTFpvPQQjkgEHC+4PUf+WP
+    properties :
+     x : 20
+     y : 30
+     width : 10
+     height : 179
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : IMG_BOX
+    identifier : 0x284fe2da3e70b505
+    internal_properties : CAAAAAgAAAAdxJRAbo85CTOpnqrecK54qqHtjfOjI0upC7/LRqhlYvC9+Prs/x0i/EhxzCL2sQ/SXUpi//umLQfnRFBHUF5hHRzQMKumqL08ziqDyh+47w9PthVp2P3eG7DIuc4Ip5fi943J13UZufd/R2K0RP0pXuO/NZbRJNEzdRZs8GtJHGFDS2HG+sxowWu8nky+abZchiHVwjza8FHVXvr60OQtEk6FOhN7V5e61fXDQhd3Q6xWDfzb+6XzZNJOw0M0EjgVcG1qF2LuoulxIkL7BOP+npDxdIdQefYutcU3C1HIjQgNIxmkxVinoAt/FKQymrLcpSA6JZPkcBaklcRCqbAQKPZH6SVOlhxJLUAsNYtTz1DFvcM5ozlxUC4gTHwyjUo74I59PQNzwRpnjsPAq51klS1oLmSpbXeCFrfc0mPGEzOzA2HA1OlfrohLCSC5BlURPu6DlNApmbO7gJ7gqD0iKlB5/t0yzCLxmdcdAvmIytgOiiMcC3WK5nmDejfZ0WrhoLcBMcSU/Ig3Dkl4DBCZHsGXxpl7wQmWlyxvjhO5TARobBwllpa0KXu4sY/mA9+A85/m3nueAwlhh46jhrL5vd/2P2U58Dct
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_Sélection_du_graveur
+    identifier : 0x284fe31f4349c2eb
+    internal_properties : CAAAAAgAAAAsWBJMZvuSntXfYuHquYbzJbsWXGfOSqeXDUNXWEJLqg7dgpqtNBYtYEbJKU7IqIlHfgWQEde3uzbYiWMdWm1tCzfK82rS4+pX7ASxSbsfBme6kDyd4Iy9M5Zr5U9kCSve5a5tevq/izULkEKVogn30+zVLB2iYsU1jSK1sAAFsL0mDRq3hUvTi2z6Pjwz2NHBMVOO5opNEHNPgwcVNFmIi1LNUc2AkEtNNdKEHY7Qag7ZFjmJihPdwLAQY2Pq6B1u1Sj7I8M6e1uSv/OB5jax0va+zWTCGKev33jmth4usS9K36kBCPUpE2F8Qe3uJsoRCm/dE1Fe7lM3RSXMt6CCT4wWVEK9zqH7TcwaWG5K/aOrgSC7tuYCnZNNP6s=
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Plusieurs_graveurs_ont_été
+    identifier : 0x284fe337454b206c
+    internal_properties : CAAAAAgAAACe5F1jEtCghZtl7gylXnWtqbMc42j16gNID42Ks0qF84XiitpI9HIuUKl4b5pBC3AiZ93daQcPKsk50TXld0Nm3M/L/oa3aNtwB/NdJcUoM9iMSpQP4Fk3VfJeFfBEcbFn4dTDaA4om2aKjjaWfc3jejZ/ZhSlnaUMjzjH02xQGm4u+33WdlOWWeB28zY7fG4iUY+Le6UkIX+U+3GDt+RcyiwzvjSUUE0NMeRZsT8I5QMErcah/BweVehCLn7F61gvfd69W518elYaYUqaMYG4wrH9AXx865kJXWdoVHkTZ+NGget4nezOuK8W67Q6u49JANNsVid/Yx/xiDXuXvSjs7JWWiEavGCpjbHp/eFRL3SMZ3pVUfw+QCmkr/tZW3k5vruBAS/klFofjxBQHRuZHxZGnEJTt0AxIs/sV9+Ji6n/XhEww6lF95OSryztmG29xIhCWz4GqNvui8Iceag5/am09TE=
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 51
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : COMBO_GRAVEUR
+    identifier : 0x284fe37549d1125e
+    internal_properties : CAAAAAgAAADktcN0qP92wyp9ASftFKp8ajOBPuMpQJQHtOOgM2kCTbIeKxIuw8KWRCUy8LLFZi5G41Gmz4TKTYgA+SKnTC8YCRycZ3EOQMn5dckmkavrEz9PeR/2P1AhbNJNOmkO41LMQNolfo15DtEgQnn+hg2cEihz5iHeX4JcY/cd8/2VIS/Ts1CoSAUC5OPVBrvVP2T+3fDDu6+kWIeMlVsqk0KQWJ/jSWt3KXfUCQ1zGZSqHhnCSs5ZcMODxBHFN5cIggP7Md4Zc73+SzcUutUVJKsi2//x5wOgJpP4dQ+8XCGsPn4yD+Ds/nRGJDWyckP7EmLRfqLIBm/QA+MfyZbx9FL+svn6bOigkMnWaXZEKKAqP4FDxzUwaV2axEvxwBHX6g5Eetod6INPQ8sjZI5mUN8PIxphSwD5MjlyCG8/y2VByWxiOS/SyW9+ckFdTEZiXVgidUKyZ5f37HlFOk7vWh4TLXH2cfxGwP5TTCO+0TbE/qpUtd91oZeU35Hk38GKwUqiN+Jsn1pbXiPCHf0jMbuyQsnfBs4wj/++23WYXusmfo9DEJPrIXiyMiZLJblZlXG1HADaBbTBB5ejRyuT31KFgEtd9eo0A21VYpNy6v5+7OX8rxDkDTzkP3LQniL8IDDA5/QoNGwuUeOw4XNLxiG4lqIFCKLsUXqFxh9Z/IQ+d9cb4KuDo5/feyv/6f6plauL+d6ZWrIi3KQgX/N24akKGuHvtHV4mwIORi/7kUXGHtycT7SOsfCYfJZz7Wnw9YOttQzpuu6+BFdDqqf/kPD2uyzPGLbxDLP0r+6rBnpdLrgVMJFL2RqgG0IF/sCDOqlJI54RFq0J95yqG8dv7JhqS5e7UxbC9C/MVApW5Hzz9fbNGL60fqHr3SlqcSlN1jT0Dk4i67xv33FTnWAlPDX/dtzNPTe6CrvnrGqTGlUHQVq2junAWtL+iwHIPZOEfp0a9cgbrdSVp+r2C55/8bkg7WOfLAv1HmQs8Mrl34rBsNZyqCcqQDYsj5Qpxk/w59lLRr2oUpO53mqS1sqRK7YlWS0Nu3nlXsdCX5XKoUXARuV9nxRJzTmjycUdVA17KXCJjcoIEwuyW53iPDytSAUlxzdjHSXaY9fyIqhFybB6RWZ9zZVkGLL2qyHQMFPZh0CoQC7HJUTXcbq1xoTamynqvAun6J9CaS2lj5+9qUP+xNyFBjjUdfWwTEuuca4Mlc3Bn8PIB5lce6ccDKt1nnCXbdx8W1G8AwGlSbvGaCRwCLVk46htAXPtKFmyxu4SpWRMO6B84Wa42GyfKrxwKf/i/3zpng==
+    properties :
+     x : 39
+     y : 119
+     width : 242
+     height : 24
+    dropdown :
+     internal_properties : CAAAAAgAAAD/t3hDG3ytHOZR/XxGK4iOuKR4m/OeNg2ElTq4WiRaY32mLUGROsMKlvs3UpQCouTLlKskY8n1qd0Oao4MajtM2WoAf0rvpDXvizgBNM33xxmOxICfaT4pBzfQBjLYGbcPxrIHczKfmNRX9PKGFajG+AwYA1Fw2n+F1tbqsOXgjPIaPBo8lQZIxyS9Ds1HDrCDIVQP/0AksoBj2ZP4YhBPQIXgMMIRsyK5bi5vqrxUloFFmMb2uyEeUTxHfPN3hY4uysbnvJXhEDPhCeHQOVT5gW+KfoU5DI8412lvWLkyhgnS/37Gr3HBLbObV9IeKa25rjqFv3n4cKWLqzL8HeXj0SQSpXVAEFQ4h20QD21S+Kv7jRRVBm++SIFE3EUZVV/ELoTmAmSNV4XZkOHVju8SYl0UTe5NYo0uwiba9B5sZdkdGxwUd0PDBRlIfru/QQq8KVOUvwKC/v1ppmXweYp7u0JRRDXUhIJlD/GRI9gFOC/HT8E133WZAWHR/Mm7Z3aWDcHd+uYYf+rEMvBnlRq1rZBc
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_VALIDER_GRAVEUR
+    identifier : 0x284fe520542b9c32
+    internal_properties : CAAAAAgAAADlapAUUJpCg0jPNytAGCNhWOmJ/rXq1zdkmANHmGfD1INLbCkxZ2i2kn54rH7/JCNcWHi4GEV/4JPPRYTQJISwsOC8JmoBacUw92t/ZsPxfPPoj0VMaF4AByO69ZAdFo+PjCMnIeF73/iqEix3xmj1cvJtr1KUM4cw6GLjuONzZrTUBBIw3FcqFlw/pzbQVQ+hdOkki62skY2FWbig9XW+iEfn1pUI85gtzp4HSLtiC4fXJv/C4zd3r+wSUoGT4TfQLq9vpB+/c12NVXfnFZenE+Sb5jZRYewhZQcdej025kqPg8L1WFJHunUivwvIu7gp+qacvZhIEf/yzos8bz8p6/s8GKzm8erGU1ueBk0kt7b7uBg27ku//2Lz2HFnfuAQitwZOV/UdEmFFP5jOvwNoLnyYd11yzte20mFF1rXy0Nn42C+8dj9Ubuw8Qx82Y0nkRddvwenrJnKY6VWAIlJ6x6N2g495Wz5GiRUNhGq7emzqVQZjP9PLuw/e3gMP/cIm5fM/sDGQhZquD4JTvHbjf/Ba42z8tiJAABlyrMg4urogvpI9PMVgkK4DDqIeTS3tFO5yFLdCXH8KxWEwkuRYdHx9P/2UZJGJ78tlXevhyRpt0UOjneJ8H0H3jAItPyiU1X2LcsmqCcP
+    properties :
+     x : 120
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Sélection du graveur choisi
+         si GraveurSélectionne(COMBO_GRAVEUR) = vrai ALORS
+         
+         	// Graveur sélectionné
+         	gbGraveurPrésent = Vrai
+         	gsGraveurChemin = GraveurChemin()
+         	
+         	// Autorise le drag 'n drop de fichiers
+         	ExplorerAccepte(Vrai)
+         	
+         	// Active la gestion des l'événement du drag 'n drop
+         	// 0x0233 = WM_DROPFILES
+         	Evénement(Evénement_DragAndDropExplorateur, MaFenêtre..Nom, 0x0233)		
+         	
+         	// Revient sur le plan par défaut
+         	mafenetre..plan = 1
+         	
+         	LIB_TITRE = "Lecture..."
+         	
+         	// Récupère les informations sur le média inséré
+         	RécupèreInfoMedia()
+         	
+         	// On ne grave que des données
+         	GraveurTypeMédia(médiaType_Données)
+         	
+         	GR_AIDE..Visible = vrai
+         	CacheAide()
+         	
+         sinon
+         	
+         	// Affiche l'erreur
+         	erreur()	
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_BOX1
+    identifier : 0x284fe7e9603bc06d
+    internal_properties : CAAAAAgAAAC1HGeAd4VwbZyMOimWi3moPk6pVIzW1nKiA3AyyaHtBKExHv97bsXny4inoUaLyRZCBhAAORtZLBdVfn6ZpVhOr9NTDtE2hsxiNPwYvqG9P66CWqi2K8jPNLfhXHu0bDsJvsNdSLUV1ntY9usGCL8TNiIYSSw08p/InrEea9OWy75C5izccLXEfrCU6vzgoOPj886NrryeGhUyvYtYUFlgcrBtGq9kHMTyHvxxR79HztSvv41sQRtJcQo5cKLu5C+74RNvpthVZzwxaLSQFmsjklsT15+nJROCmABvBYCZ2tYVY56IHdff7JOXzvMc87+aFVpMhiokAW6oH3BQvanyRwEGwIc/2QlpK48DkNqY8aaIUgb+zFBiK4MCHiMU1k9HQcmPlZwj46XBL66uWkN+CeUYzuXFhLT6CLA+juwVd/t/cJwIxiJRqzcmE+qyPkCLzCJvU7R+46Kk6ptTxyxkO8dR6Hx438TzvJiY3GsZPL/WKaL7HIOTgBuTSyDtHQXg1eOn4S9wipGAcrNTwU3lrBviwbgAsWz4fOrBuzH7tX6U7wzKq3ljYPkyWfKsWgupV7ZN
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Media_vierge_requis
+    identifier : 0x284fe7e9603fc07d
+    internal_properties : CAAAAAgAAABxe1bOOLQDIH0v9sG2u8OlGmgex1lOh/hVkl3fddrr/qp4JoIp/Kno/AlIvTfnksqiy+gUsFZFYnliy7MEznC1qQ2I7UjsxvMTqMocHTN+W+vxicUG+YnkCob2146yWQRmw7Ut3yodyI3WU5MFZDzbJhJ5VjkvJiY3djqntG1iT20PP9OOVuNLOwBNzS2phfQrdAODeJ4EJc6BjwOK6asMCE+SApGjSBvKHMcSXkvN6PtUyXYQSkGmQ05ouCPq1qckALM6yS1gkcLfZHOXrlCYSy2DX8GmdG33EX0gc0sA3oN/20VPhhAXdMmCW5PIOPTtL+U+9QypwsrTYEABZGBlicjw++tadaJZm5ABPywuj5hI+KIpk7qMy/NLoOoSv9i2/k1P+p1T0fVe7pAu316rhxHiUVUraA==
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_CONTINUER_MEDIA
+    identifier : 0x284fe848609e3385
+    internal_properties : CAAAAAgAAAAvIldy3hDou6eoYuDYYJy+qrnFu+0uyPPzEmYd3JBhO/z9QHliT5EzO5GYa+pF/yaegUc5VeTOVt72mkAmwSHhZ+3WgLRXn75O8s3BT2AvzRDTLJjbufKOGQ9wQ+usDuJzVDw7FlRwIWUwSssWoQFRICqQlfH+IAiEfzSAX4v79myIAqg8RkBbpC9Hx57watrS4PqXzricEOvAUsrsC2mmuEOD22GNnqGTpFlwQm7Y7XSfuVUTBMZuw5RHwaq8aiHoVgnhLMeHByHsypR5PKYblkNa1Ve2Uz6Q1MM/nj/3F2PjoNbjJv4u8Zu0+s8AdF9URA1I83olYwhdkspNIz9msxUfq70iKLQiUrt70U2QDnBp1b0hgOTln9UDW/y9REVCbhfUiJP7eMewMvUYWIL4wAt5INzNrl16tLUEgDITIPXnLlebGZUP/RQK1CXEnYwZUXRmsK9E3k3Rb6xFQE1qkZQQwY8LvLa1R8RnDb9A5q/LXuV82k5vjJl1Gi0WgY70Xygha/jzChwRHBcgtoXYbY0acHo7dZwb0WxMn4WqZQri8//luj22pZFMLYi9bHrmMc8BbEdAILUpDN7R+tY+81PaUVJQbR0GF+bdTywlLCRRjLAuq6/naH+2A3bSjLUtQktbwUfgEtbBmCaId+aj5jZyroY=
+    properties :
+     x : 120
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Ferme le tiroir du graveur
+         GraveurEjecte(faux)
+         
+         // Revient au plan initial
+         mafenetre..plan = 1
+         
+         // Attente
+         IMG_SABLIER..Animation = vrai
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_SABLIER
+    identifier : 0x284ff0d974b8ade5
+    internal_properties : CAAAAAgAAACWKhfNAaWDllw8/kttbfqDjwkDUhdZAJYA4QV/BZY6VNY0xvktAmdFUu6zLZOCtMY0V0SdS1jftS8SnIRQbmiW5rl1CgFne1wkjuP3iWQeRWekv43EEdaJDuaiggNvZM4vP3V84P1Bj1SSYB9yU9L/xzFeASweRO/m0cKcvXD5Nx+sTbPxYifaMnBaCt6ItsgI8CpBsY/Y1F8Qo8RyRkfhDXdQflJ4Tw7PdXROOLefl4CAv+in9fEeDyd1lXqAHCi1+v21YLXcqkud6dXdr7XJEk6OGO8UVEoAuyzyOfgE7RnUEqV9Eo6wL3Nj42od1QjltkO/W1oL7HqU7xGQsV1qG18R5DBwo4vhHMKIKLkYh9BQWmEOmrnUVzRkLaafoGhIOipC4DbHA9Bj/hzeOHBeaH8geIu4vpL+cwruH6DrYjv3G5lvytEY4hhIesJH2FUaNWEogHo3FDeXx+Tn8NEiBrXeT66B4cxzI2YmlBDxhcpDSbCY5LpHxI1EAFt7T2w6uZwLwOWfgeZ52+25AB0fR+mdQVFC7GPN6YJ3lZgzPB4JIQP/We5jDk7ZWatXyH3guADxsfYeZ+gCQs6yUQyYaLPM+SieMEUZ7NnrCw==
+    properties :
+     x : 175
+     y : 97
+     width : 47
+     height : 46
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         IMG_SABLIER..Animation = vrai
+        type : 66049
+      -
+        code : |1+
+         
+         IMG_SABLIER..Animation = faux
+         IMG_SABLIER = IMG_SABLIER
+        type : 66050
+  -
+    name : LIB_TAILLEMAX
+    identifier : 0x28500d179aaf06db
+    internal_properties : CAAAAAgAAADGegt2cKEuEjTvp2qjPlZ+yRvuQj0/xgRVgdCXzhgBeTBWJtMyRUsgIHVPcoE2iUFEZzJIC+sssW6iWe2JZBF3KIWn2BlLBhS/Et+3QpE4HuWBiG1Dw6CRc5gBlGNJoD0oqDNHnF4YfNWg+NKhj6x3YoqRlo3bATGcpcqekfUpMT80Dp6YFAyyrWIdkjXjv+4WezmUt/rDn6jxkVACMwhRt6xqDQq+1Dn0OnYXVuGhcPQYIkdS19RpMFyA2ahk8G/Ze2VwR3/l9G48fTph71hK1DyYPMzFFSnROInS3YBqqL3VBiKjS99L6KyVmQfjJgWRfqL7w/HP5U46Wh6Eu5EfEiE9
+    properties :
+     x : 9
+     y : 16
+     width : 41
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_TAILLEUTILISEE
+    identifier : 0x28500d9ba17e076e
+    internal_properties : CAAAAAgAAADmBAh4srxclDs5TB8f8iMqSS8NzraBLIy8nt9JbTACbCR3g6qsDM+ywHMR1KFpnW43uvAphGwNSoELXMsCSRnm1faVbX0wde5UE4WOYbPYUcjY4ym2Eoql40ePU8O0HDsnp+OPqSGEg7npcabS8dgf05ZTHGvFvuniefAq/yT3dKymkdQBi4/zkPBpY6vq0lZNgkyHXmk5dE1NaPIGJVyHW3HRXYu/MLpDhf/gkrwehGowg24FMVCOGG6pLI8k1ENGrjH/BrPPmns8cnz63T0avAwP+Oe2KQcsi1hF16QAPZLDlqSq5jjZjramt8yNBN5WhSSsudEAeTP9vnr5XX/XM6Zpzl46fQ==
+    properties :
+     x : 9
+     y : 211
+     width : 41
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Pour_continuer_veuillez_insérer
+    identifier : 0x284fe803606823db
+    internal_properties : CAAAAAgAAACaWzoJEzDPTDVu6GeGUYgrEJ3wbp7Mz0/FW1VJJT3XyzT5DE1q+o09VIMiPIj3PPHAG89B8WLJAtVqrrY7yS82haztJVW1xh0a2nJZuMQTyiapPqB5meb9JQnubsxk02MoozDo2AcsZJBIHFzPc3fgAA9aY0OTP6e8ZEPNk7UtHYf7Lx5Vo298urSfzUK9yRSnVU9UtAqx2Q2kxNhReOk0KTldxTwiZojNsffpBwB/+vzMoqyODOHIDXbgaX7ECgJJoSN0qDsMSdKBjgsO+TmV3QZWp62a/4yrbWlyxeHzjh21KjQVX2CuNAdPDV0w+f8DAynnW6ctOiIuZfhKBEDg2VN1Dqh50qFe0gy4zKTpXnkHb0uVTYH9nNeaE4cX2Uv6MEhLVhXKfeTG6nM20OwOV5oco5iG+NV3kk0tNSeq0syV6ckWdv6sp0d6LUfz6AlFHaLJPUrlOWHTb9dWs1+PchJfaTgH8ityFKEeuRbTsb4JAddfFf3+ouBiSfoRygXBbb8WV+fhpiHV8KFbjXuJnA==
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 101
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_TITRE
+    identifier : 0x2850deb11931c00f
+    internal_properties : CAAAAAgAAABZSkh5FzDjE+aliQS6uB1VpPhJShdnAuAXiwOxrIDitHxZzv/H/oWQnHIQMlk1Q0++P5AKCATQpaB0WgzIjgiuKCbdapBZyNfwAq5iHUr+BziJI9ujQYo4cpf8C1QWlcRKnpKsKHTA34tKxbhgePJa6ESZ2sZTAzCBmyj8VAFiygMkxUzvCDBDyyh0XhpsqMfcEOJtaNuznuHK0tOSUJM5FhrtH3KVTvZxC4Ln93rfn92ajeFd/WBODT135ijQFH106PdGs/F3Yv5N+VmiMR66OJzc7R7s0i/QHCGEf6ohAmMVKN8NyZi2ln6Qgckp4DtaJBvaOwRB
+    properties :
+     x : 32
+     y : 97
+     width : 120
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_INFO
+    identifier : 0x2850decb1b62232e
+    internal_properties : CAAAAAgAAAB1wiEe23/6L98XR4yIhby2bloBQNVtD4PdrLhjJUkjp8sEXCyB1o3qlE75XyOHhVUKZEWzVbUYnwdvQY/tuRuFY6ljEFE0TjMz7rjdQbkUO+aP/+K2fgvAdeCgLZAh5itDX+CQ88DSnFKcyDLBDZm9Wzl/MS73HcZuAqmJWwot0rIgDBJw6Rd9M/tDbPPFARloL2H2WVsIXIGXmzoOmQvNif18dCEUaC4F95tNpcGqWcNlls4YQTdtdNXoRj1YXpJvV/P3vChBfYVXAdqQbO7GZxbhY5zOMrkuxP+ji6c/XeLni6IqB42mdQvh5CG7rQ3UuFhTWpooLKNM5A==
+    properties :
+     x : 32
+     y : 116
+     width : 120
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_ANIMDVD
+    identifier : 0x2850e1ef2baf69b2
+    internal_properties : CAAAAAgAAADanuzhQ28b/mavJhlVoAqF5a/7SAVDqjSVtw1h2z23JYDvc5a3LnzGD4/7wfeMvN6g3Cfm/IC1P5Dhalew75F+wMKlj2xCPFPPzF3SZcBZCLdMrJi3etsL6z0ioyFZsvx5/LB63TrGmaHxtXNHawvrUCqkdkdh0WO/JsKjbO6CTZ9ahPom1ALyM5zO/PYQXGrYWaWtw5U+XnQf4HlT3KGNchPTkLUg6A/oO2mTeTLBvJJgZgPlVSDZ8FYNDmBTx+fqyAb6tItzGrX71BgXABANhwiaW50+rPLs8GNBfQNz/AFHVaHlAB4GLTGkzfWYfc2OGra/uOeXo+16XVzYQ6tUNk2c/ntcTuzYxHqblsOcy8lTIdJxk79Z3o8fos45DtPs2y3pZniMlBvrkPSgATiTkxyf8e/kukMvDFvNrbfwX0ETn85WcUJI9BMaWJS9Fh2ETbVORB7mhW7eHg3pOPcBcbBbmg8HUcp9fgluzOTF2aZlBF3Wp1n/IPHCLdUeb5BvuDEu0SxLAn3AxX+iy72w9lgh4dHf96cEyOk1S3UJFFcaO+WPyWa+HBxdwSA0fWLSMYZzdMWnTuPXX51RhIMelmf4pHdtwba+2zVXvw==
+    properties :
+     x : 85
+     y : 6
+     width : 227
+     height : 226
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_GRAVURE
+    identifier : 0x2850e5e73decea24
+    internal_properties : CAAAAAgAAACPemzgf8Gk12m/gKFt2C9oysDjYqREfK3lKLYyw3z1S7LZEB44zO3ZfrpWkoNC6vgD8Qh405asREkMlFjNuAcQcmc56fMC/6rLSXFRvTyn/cbupNZy2awN/MxMwpXKt/bgj3dnBE0/5u6WoQ9yValQtL7iAS0GxdD2mJ8F2HVm5F3FIAAaPO1pGaIDLArjx+cD8JVZcCxnKrlJVswvPgQ2u3tEcBWyA39hVwP/mF0VQYezn7/scRFioaAoEAjloNdbbk8w7O23UWjD81YI4lAFpmmpBzi73zIVA/rZ7Emde67hntpfwTEUfc1WXjLpyD4OKPnjmvmNZVmFU8eVP205IqJaxe0aVZeXxcv2pzsCNYu7FjNc8yVOHiSvV0F/wVrSwe6bu1ytide8zJrHFRaiooOkgXjm5chNte2+r8cSEOv1YIBulUkV7xOqRZYEHH9XGNoU/kp+7Bje0rbbPU8gmVikAEGBb6nt/Ycxc5k2FV446uhb5LJxWGBabrL/oepiiE5S/uZl5H+Hy/iJN15j7OaPzyVvjMwYGn7TYp99v0SeUUUB7nQn3SVN408ya/WCYlDENBj93adCAV9XiY4CWamIL/ZU5javfPDkUqHbe3Hp2CUWrlqlac740IyD6jCdSp6Xe27sv2FQYW2DhAUNj8nrYan0jMVeyKFo3njNGIT4j31xETnxS+G22gixZubz0dv4oKrE/iX4b7X5GvNIWIL8ADjmyqNroB4ycYwqTHSv3oyGD/VBRulVHUo7CGu6fg==
+    properties :
+     x : 165
+     y : 88
+     width : 66
+     height : 66
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADzxeoRPS769g8Mv3pkL1DpIz3svCgNw9tP8pOAqLVvb7G8TtizUHGN2EOjNKiG/V63Glrw4BQi9I5tGI1g8J60/QGEi0WsmIhUXjKs1tL4ipv5SGM66wb38Nj91JfBd2TlBfehIs8Wurwez5Q=
+        code : |1+
+         
+         si gbMédiaPrésent = faux alors
+         	
+         	// Ouvre le tiroir du graveur
+         	GraveurEjecte(vrai)
+         	
+         	// Attend un média
+         	mafenetre..plan = 3
+         	retour
+         	
+         FIN
+         
+         // Pas de fichier à graver
+         si gsListeFichiers = "" ALORS
+         		
+         	Avertissement("Aucun fichier à graver")
+         	retour
+         FIN
+         
+         BTN_GRAVURE..Etat = Grisé
+         Multitâche()
+         
+         // Fin de la détection
+         fDétecteStockageAmovible("")
+         
+         IMG_ANIMDVD..visible 	= vrai
+         IMG_ANIMDVD..Animation 	= Vrai
+         BTN_EJECTER_MEDIA..etat = grise
+         BTN_NOM_MEDIA..etat 	= grise
+         BTN_LISTE_FICHIERS..etat= grise
+         BTN_AJOUT_FICHIER..etat = grise
+         IMG_TYPE_MEDIA..etat 	= inactif
+         
+         nOptionsGravure est un entier
+         si EnModeTest() ALORS
+         	
+         	// En mode test : simulation de la gravure
+         	nOptionsGravure = graveurSimule
+         FIN
+         
+         // Ejection automatique en fin de gravure
+         nOptionsGravure += graveurEjecteAuto
+         
+         // Lance la gravure (à la fin de la gravure, on éjecte le média
+         si GraveurEnregistre(nOptionsGravure, Evénement_GravureEncours) ALORS
+         	
+         	// Vide la liste des fichiers
+         	gsListeFichiers			= ""	
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : JAUGE_GRAVURE
+    identifier : 0x2850e931496ac279
+    internal_properties : CAAAAAgAAAABwPkd+0OA9hHZ3F/VWRlNb7AxXicHUA7iGpmI0ABR0c9oVhW0B78JJTRlY7ZKdkuDBVuaRElprVWxM8+C3NlHBEW7tsD8xeh+hv99kPWnKi/hj/rPyiCitGPBVvwhH/5+PjmufOsw5IAmER+zQgkyYtyufPb10vnuELx66BYE3zdhi8bekweZ+xEMeWZmfY1nl+jUetFMjlGHRlp7QUNbDpOp/8b51VKVw3ego4GYI9xihCGlpU0YfBGvGxy1VQqQuPWTDp2Yx2jkabtuWSZluXbHOSA375rfxjDfLAeJ1BeghsG7UT2JbzMTwT5MPPdsK/fNdILsg0cWst5uc53UOnLPnGlmIg8Z5MKUBIEThtgiHLFFqkUYpHCA0bSQZlZZR9W1dY/cYeGWkPNRBpCbBBix3PHN8QH59Gpoq+1yzoQUlKpCi+DiJ29g5HxUBHjbqj4Xu47cktuKmxC2X57wPJc/NbW4zxE2cm/HxSni+o5J01uyihPUebep3J/5scTCULPeQiZFKa+CPBRapPpWIKavlIAPTUqH/nhD9WGhnb2L7OXIDh9jEhNQ4C5qnSfkMzQzLRynw0L4NlWeBgcAMXRfZLHrjNVByVs0wq1fIoGGMizjFXzdzWf5oqxdWDDDDio9vT/ls1XYtIazuoRQOqtJfscQvkuUtRcvly0pFEujCvk=
+    properties :
+     x : 32
+     y : 132
+     width : 120
+     height : 14
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : BTN_LISTE_FICHIERS
+    identifier : 0x2850f1f45e9bfaaa
+    internal_properties : CAAAAAgAAAD60+DxbKX7khY3JY81WlSHhszR35423OoJ2ROTJobz4blv/cg3DfcLW7iU/PRQbP8ZnVd2bhrg9I9hv2vbTc/rvNGbU8GsjoDiE+ck/8Le/0KlXHubEEs4MUiQObIiK/mNJu/byGKpnyJiO5CAovppm6PvzRrG6xRpX9YP82yDG5MvIWjjV+7JLPxBlQRaGdMjEiDKQQIh2bamBTpkW2MVBHsiI9LQRDO9FZ2YROWmmTlf8d6ExFKMW2/Kyrr4jfQYt6dMY3wIDAcIlYedZ2vnnBLqIrCW5TAn8ViDF+x3+h650JXwvZx5XUrv7omES0FnaG9wmLI2db/puj2qCLLwKHoWfE5pJ+iM8lhAZC0x1eTvG96KCleQDyp0KLWeAjxdvHQPfUIo2S3mUGunFHKnT3ZgTCNYoiimJsejhMdncPRPQAr1bRRH6MxRxARR5es1vVLGx/WiPeI4r3OvP5vKF5452f1f/zgzMKNkMQXm8RrIT+5WGZCRtNSxyr3N4RtNQzqPMH0S8PtL+mp5tFFnUj4muqD0XlYr3WKtLE86pcjFpBznygkSZcyRbubej7Wn2AEfaV21gFHegd9B4c4z5l4dlrtupbQmVXK/3pf7V8VtLubzFgEpEnM6qlkE7ywzkAuKrzNy2onrgGEQ3v7BpcnZyhetVgBfHijhNMdHjoIsA6kVSw6hIQLvUW89bjKzWbYb1QG+H1VkdaUkxecBHamNmGsQ2TPtu/Pbbp035IK/3E1bt1zpBeLs5v/3DQ==
+    properties :
+     x : 59
+     y : 178
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // La liste est vide
+         si gsListeFichiers = "" ALORS
+         	
+         	info("Il n'y a pas de fichier à graver")
+         	retour	
+         FIN
+         
+         sablier(vrai)
+         ArbreSupprimeTout(ARBRE_LISTEFICHIERS)
+         
+         sFichier est une chaine
+         sType	 est une chaine
+         sVolume	 est une chaine = GraveurNomVolume()
+         sListe	 est une chaine
+         sElément est une chaine
+         sRep	 est une chaine
+         
+         ArbreAjoute(ARBRE_LISTEFICHIERS, sVolume, "\images\cd.gif", "\images\cd.gif")
+         
+         // Pour chaque fichier de la liste
+         pour chaque chaine sFichier de gsListeFichiers separee par rc
+         	
+         	// Extrait le type (fichier ou répertoire)
+         	sType = extraitchaine(sFichier, 1, "\")
+         	
+         	selon sType
+         		
+         		// Répertoire
+         		cas "REP"
+         			
+         			// Extrait le nom du répertoire
+         			sRep 	 = extraitchaine(ExtraitChaîne(sFichier, 1, tab), 2, "\")
+         			sFichier = ExtraitChaîne(sFichier, 2, tab)
+         		
+         			// Récupère la liste des fichiers/répertoires du répertoire
+         			sListe = fListeFichier(sFichier + ["\"] + "*.*", frRécursif)
+         			
+         			pour chaque chaine sElément de sListe separee par rc
+         				
+         				// Extrait le nom de l'élément
+         				sElément = extraitchaine(sElément, 2, sFichier + ["\"])
+         				
+         				// Ajoute le fichier dans l'arbre
+         				ArbreAjoute(ARBRE_LISTEFICHIERS, sVolume + TAB + sRep + tab + remplace(sElément, "\", tab), "\images\fichier.gif", "\images\fichier.gif")
+         				
+         			FIN
+         		
+         		// Fichier
+         		cas "FIC"
+         						
+         			// Extrait le nom du fichier
+         			sFichier = ExtraitChaîne(sFichier, 2, "\")
+         			
+         			// Ajoute le fichier dans l'arbre
+         			arbreajoute(ARBRE_LISTEFICHIERS, sVolume + tab + sFichier, "\images\fichier.gif", "\images\fichier.gif")
+         			
+         	FIN
+         	
+         FIN
+         
+         // Déroule la racine
+         ArbreDéroule(ARBRE_LISTEFICHIERS, sVolume)
+         
+         sablier(faux)
+         
+         AnimationPrépare(MaFenêtre)
+         
+         // Affiche le plan de la liste des fichiers
+         mafenetre..plan = 5
+         MaFenêtre..Hauteur = 400
+         
+         // Remonte la fenêtre si elle ne peut pas être affichée entièrement
+         si mafenetre..y + MaFenêtre..Hauteur > sysyres - 40 alors
+         	MaFenêtre..Y = SysYRes() - 40 - MaFenêtre..Hauteur
+         FIN
+         
+         animationjoue(1)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_NOM_MEDIA
+    identifier : 0x2850f346707f23a6
+    internal_properties : CAAAAAgAAADTKN8vO91vnmlSif29mVsvl2EGIN1scUXwSGvwUcJu30KyfJpjhk64cjllmAgXSCf3YuGo7hEW4CgKY0cD9qBpQyKNZGGu2ElKliRNyZLKEFX3gg+E0ziVcGGrZ4w80v/KDn43OhoCZBpAstat8ovBuGFRUHiMAAqDEAnYCBWOakQsb8IVNl31R85Ns0pz5yEqCP2LHmLAx5kD70nNuSwFHmLBfoUfMDSTk3KgmQU8t/dP+t+KQQnrRFB/r3DxDHIRR2n9davl8jsry48qrqIatZJaJBTXn/QTw4LXStve3xMiAAA35QHLcg78ax2LGBqU/Rn9xJATAheNvdl5gj/zH/2xrNiuJq2CC0D0CgaHKuMlYGDrb3l0bCOA/+G4mWI5gnlaIQ2gTm9Yp/OAjaN/cRAfLWunpN/wpDjLRYha1vh7SbElRtgqRtrYlluA+slBrwv9s9g4gowucFFc8AiyCVb0/v9GoZ3HTiCAxspJE7K8KkPkxOp4Pu48aLiINovTG9F4cITA980/c1Bga5bNFgTtIwK5BINv2+sNFRj188Qn8U/zdc91idoUTC/DVkEHvOTMGTQkgPDX064yJh13UXkvhHT5VSeanYVZoV/G4Q308aOSdsu/DvR0VhARF4MeUMBC1Hl3C7bn60GSKAgFiZisrkbt+t1DTp2iagt791rJSm56w3t5GQQmzhxkx+QB21nqnuTYtIEWwyVRYqr/GLwleFiwZd/E4kC6XsXtKS46
+    properties :
+     x : 34
+     y : 178
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Récupère le nom du volume
+         SAI_VOLUME = GraveurNomVolume()
+         
+         // Affiche le plan de modification du nom de volume
+         mafenetre..plan = 4
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_BOX2
+    identifier : 0x2850f56180c0602b
+    internal_properties : CAAAAAgAAAChEHAEez2s3a55+DdUI7/WOcX8k7ELfZ1XxgnE+aB0owZb6X4kyoLFu2JkB7rle7ICShBTPgoZwO8Z2GTUDXsUx85rXgG4PIT5uYpc2t+/KS6Yp03pau9QvsimoLd1TzoGdXxTZguh+U8dSFDE7f3KEpTl6kFk1rDupB8lq7zJkFpN1RN1AqlwkXmPz9QQ01UGVwz0EMtHa7cht85OsxGJmdk6KIQgukNrIfCF+nBe0oQt+wf53MKF5zeiEOteNF2bogy3PQtludA3tx4ht5gMUsX9vbGMRXbQzL2KRNEkL0fA4FR3oRzGgtQEsQd+QZrnVnIxnpICpQ/Wxj4/cDJFkxwTFkR6GhGj7TOdPA5MNeuTFYuLWpQeoYop1AR0MyrPWfL8WWS5Y9wdaPX+9Z+Ifyt2TZp6Dzq07n4O8BIHbRwiW7gKhH3w6M9hv5XmCNb8rRgDvdKavmlMPaQPDVTMgaC5uEg0rxo91igJdRpeB2Eu5UyZPplBYjUxSDorBg5XfBbSqhpvS5aCJEtnYL1VIvHFXh2Llmiv5Lwx+TsDTQAOvdjaWy+ZNhfZxNub14akQ6pZ
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Pour_renommer_le_média
+    identifier : 0x2850f56180c4604a
+    internal_properties : CAAAAAgAAABpYuM5GdQ8hftR8bw0sx9ZiVeyvvDiKVG870BYDtIlyOf+76QKQRPBXLvwMkwqBeHFM0Wwl/2I38iPRcGBDJvocUEY4e9Q6SwGP5N1bQuzcEdbKTe32mKIsKAyA0qqtY2SPw/H5jtwDKOcOc357H6kFTe+jF3iLu1jVmeZ9l2Wpdzv9ffmcXJYqqAhP7Wx3R4vpRtzsRT0pf1PfLDiA3jcu9TE8YV2RcZSWG77MH4YA6/THu5yVrAU4pNKP4dI/knffN4C9oRxAI07O9CnzmhQ4RAW5mOOO4kR+UlD/j411LP/j0vJr/Ai2DPEb8R21BCSCmAZaK036prGPsdhWIJlHNVQEiknsvNl+YSHFNEhiiAmZA3SiXWOCfrblUmitZRdS2khOYhU4wlQrrKK5QO3wJ7Smn4gPb8Gpbt1x8QR2PkAVOUODlAmRVxoSLaIoLim50GXzfxgey+u9YaVC9aqe5I+XGWGYOE=
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 53
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Nom_du_volume
+    identifier : 0x2850f56180c6604a
+    internal_properties : CAAAAAgAAABNFCvjXznwyxGxH6husD9DMHXKhwHuvy7Njq+IwecJECQtIbKjHoMku5tWInwFoS8JdlSLDKGI8x6Wy4zw0Bn7JqRwobQw+5vafASC1AmrFOYkfxB0suuAR5FBNkcNMy0F09UTQthTWw11jw9SnZQHumei7mUL9j34oibG30NaeWIWC2lnSaMC1RAma4b/BTbIqsCNyHhHzd8WvsNAqEelJmNKQgJ5QQruFhIAjaevrta74xePt72+X+sglBjOn4GIK2MEFXJpS9jBR59yTrh6X8R+EVSwqz8tyYz1BMz6F0JomLEUMXnW+MQFz+3u/65yG3Y/5H+EVYvRz/aWSMS+XpumYbH6RCGxPCi2JecsvxI8zA==
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_CONTINUER_MEDIA1
+    identifier : 0x2850f56180c8604a
+    internal_properties : CAAAAAgAAAAkIc4bUwG+EAzMLUhzpkijYTEeam771dM8Bbbic27wFo4nAapnZaxHsnM/hQ7DgFbH7r234OJUn9U1qx1nHKTKeeRmnIEH3EQOQge6RR6sBfdlbGT3BvMXv/Cmzk+P69FqSRKus8NndQLSPeyJxvEvLobRrfN5pzGU6Ytg21vYKn/mmwndyMkuXZUs+GBPmbe+33ZFCrUi1PKEJCnOqX84y2d8kThOFB2VoCvI82k+pNt9lR+AsP8gB4wRB/BQZJXYoFdPb+AtdbwBkKL6yp1ZdabCIBbn5lAK1fKh3KOFVcNGpY+EkgTWn6jL0vfxA6yfX5bTOtilG0y9+NR78TE0ySX3IxNSd3LqigM5n7zt+6+mkkjKRJ9mHCHrmbyTjxFxZlrXAvF8LfHhIkv4GWJZ8yhqrD2K+aCgEK8LkK3VMP32wcJ87V/mc8A6jfz5CKDpxBM+6NFjplazlGT6PXdF/znQfiM3FRKJ5dRMVuab66AWA8N2OQRb5EHyUhLNjZrI1HWjZ8QfqStLfl6trnI5P5cgely3Z4DaQIMX4nEiyaEE94ONqr/dWv0Ezpfw9aWkKLVVXPH2PGUBjFQSPJ7gl5DdDas3BhdHZHCnmF+4gsjWL3QFuj6NzgvwHzRRzWqAPVgP50ZBbVZR6Qn4rCv4TX9fsYE=
+    properties :
+     x : 77
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Modifie le nom du volume
+         GraveurNomVolume(SAI_VOLUME)
+         
+         // Revient au plan initial
+         mafenetre..plan = 1
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_VOLUME
+    identifier : 0x2850f595813e2d9d
+    internal_properties : CAAAAAgAAABLtBgOEk96prEklZm1WGIbETy7uUYW1D9fh4XhwTfmZx/T0Lfg3mVxIGg5a4jvPmoQj0418ASywSy39zBAN/8528yetyLUV6skMusJFmGwhV+LmqIdH9yWVHhgxXxSngTtrQhWUWJOjmrla9qRGrhjpoi+mBh15D7AR1qJ5nDBS6RLWr9hLNOoWB1z76yUTddi8oMDGdDRPErVuJYINxzfRuwD3fpmXth7MpvLwhMoHz5qETD4Zmcq1RUAdMAXtVHNBnsvvXT5/p65xOuOR6r615pG8DMTh5wdsv2Z+wRolBbbIuKwWO6Y+LGhjLwF9WI3AqseqlTah3t2O+rXHWwDEmOEbhtDrAQXW9Qp+epL2nrE02zWUnpV56FvPb0voIEems2bSWk9rhIRhSTDbIZUyrRak5PLeVn3oqHw9GDuu79c4ueQK3uAHd4ztaIOxwNSi55AHGf8TnoBf6IoqjDmSOPs18/Q4QeTHGIfnP8DqUAfk6Yn/un02vLR5R/p2hwGhEU+L3uvdNkeJVMW/7zqtvTN9JW3lYp/rrCG88BuJYGPXc+jLYwy0H+Cl39F/pLJxs6L9rKWcg5Wb2QHhUR+5I+9EQu/GHIJ7QYZLTLFUkg8UKubmNnG0zJCxXBklgmUYgtB9fTLMwD3lA1ohrOZWdC9/CRkHrKsi7fs
+    properties :
+     x : 39
+     y : 120
+     width : 242
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_CONTINUER_MEDIA2
+    identifier : 0x2850f5cd85be0947
+    internal_properties : CAAAAAgAAAB1arNv5g6GlUi2U9/fAnoSgWrkoA80A/e2Wq8zgFCwoN18Qcf6OmcCkCFhbAiyWHqvLp0FBCykZUyh0kctiOB/ZwzBO73Q/f1nESWM6voYLA/bSQ1Pt6kbnzf7qQ4SErtP0ACm58eUkyDBRSst/kyJzdfif0YRvK+dXXbYMdLzObLx65bmrhDvz9eeoOWNdCJM1Mjcva9hm0BCfR5UyBh+rT9b9fj1/GSqQ4a+oDmPmy9qP4zclq0OFAN54fSEApxlSJf/rz6ZJdBVJj6fVRfsDGaryH1jgGf5HRp2XH74oCHVrFXTG9pKybFYrcAhWpwO5zto2cTkBKTaLmsBMor8EnPMBUaSm796KiInFcnj3wp8R4qd+XZtvBOe/XVbae4JO9TdtTM/uTlZDWvxQWWzru9GnfSe2GDdQATLv0+TXhHdqw0o/T4zF25HLRNHqHWH1AYpwqi1+WciwzVkCLWBXcS9qzDm2aRMrnq6tLNDyEG5kqrO1uS4vNzg7zwfbp8Smr4tEqZxcycvawP5zgBNsZ5oKUyQzVba083Qy6Uw0Sza8jb36PeEyLjt5TXRHpzTkbDWvhCK2vZOFBlaBgLRaJ1rAeYeNUvca9OQQ3IVtwRuYXUdXwTZEt7wpAEHZapxNVyEQxA3rLU+5uHzn3D3
+    properties :
+     x : 163
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Revient au plan initial
+         mafenetre..plan = 1
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_BOX3
+    identifier : 0x2850f6628cca4e65
+    internal_properties : CAAAAAgAAABLet0FiGuWlO1g23aaJUkYKhgi4Nk0GBrIWPh3pyvw2u2b9PtwCw/ovZtDVMJPOPbEzYc2VteYDXWw3KFIM2KVM0nZyG3z3oNDnKU9a/P1Cf5nBek2MD+LvPOhQgcn01N2ndDtT/cN5WuEwJqfLVhbZqJdjTs260/AjVVft/7tALrCIpjaF5PD1v2ev1N6qUoFhoYEO5ooogq2x4m+tn98ndjiQiJt8OO/H2N4z9nG71slVOWOAdZ67mrpau5nfxUeHGnfhdAroFUiwjTUmFmV83SlvjIRMulAV/yw8aJg4gv1GnmTCINlzdhqsklPXBB06vPGw8oVszBbF5RrQlAzin0OIvIEoxkb6mHms31gzIrO0NvEC48664mYPmHxU2IbmGjc9XxgKMcl2SpwesmzmF4kpDTMdc0isjvFzyBe7isK+fw3aeTBnOzsi94KHQrpphxjwTMOJ7BAKiPewP7IhOcm/cqCVc2waSzDRdl+BdAb3T6KdtsipzKsLQTRAGuKH9h1sZrq5SHXq1v5/AF3tp0S8QFE2riRo1OjCRz3jQnwqNdXXRc2jzxU+n4FgQMip4hXxOtu2c5xhiHdE0HI3YRBtki9vbeNcaYEWP4g4EVHJhE=
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Liste_des_fichiers_à
+    identifier : 0x2850f6628cce4e74
+    internal_properties : CAAAAAgAAADCd7/FPnN1CdQj0YajaWlCIKU+fUtSfJxdCRMWQIwemAaJY7oALnMu3Y8V6FYONUiRgG8S2K9b/XCH7daYERwrsiuK4YmeCB2oC5t/MafpIY0q+w0D5ga5N/z2ny7bSKs69tY4LaoglNaXLWwjmAswKQreLHE2U9glmFDiLtN0tJDlF59UTTcRRVa12MEuvtJ6b/fbz5LhNapPW9mFwGIRTH6nap896YzlvQ3EsNW8IkAMpF2KY/2E/DYjpulM2o2W+gomMIKl7XG09hWR3mGwZgDkcLOggubTSzyShF3MCoYgnDgKs12egSuQD5BOa6h8ZuHgFYv4kFLuip2Tf48KpQ7OEqlD5K20c8bOu4nDj3U1Z+gsHpZktHHECFLItl5X0w==
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : ARBRE_LISTEFICHIERS
+    identifier : 0x2850f6808e72c162
+    internal_properties : CAAAAAgAAAAW956RIuGtKiRFqoN251mhcC9gR7MxRG9f97iRmmc5FmCBWygZC8iS9LMKJv2m6TK0WRzIFQucqGmu/C8JR4juXk9pM5xlmao8VFuW8hKs6zUtwMrXG3ByLmHV4ILjv2vmyZmk0sodjXFgbPdFeQQUx+i0C+SjlNdZgju9HyEimzmptbK8DvAX8S5kh5qi2fT1W74Qxx+T7P6ibPzX0cxxyWf2579nSLvT3Stzz7+mm+53uX8QzwheeETixiU/es6ZW+PZFVrIRg+RHuypYGtdKr+U0IzIqoqhW6Ic3Cq7TAR+CIQBjey5JmhFTdkuEeAxQ5SNzT0UycbgiVJX5HPz72GUt7Ps05d5GCDllal1IZkeUWsHkXJ+KWmniqqBy1/OKfq1MI46oi3Jbl5caMoCH1HM6iCxBn8Cr9bhy+6tOquIFDPaSmnq7yMF5MA+EMyk8oI+KaFpHeiORfoGfuDzOcpx/S13NQp3UXYphO+9UlhMX5w+abAODTKIqo3we2PD7/jhyfH25pukl1lx6VQQ1zI5h9LWhoBApJAc0A5O6h2fCJdhlialrmKN/5KO0dUo7/7iHIu+SLMe1afAWITYLdPDg0b4Shh5b374RVXUH1fv19ivKE/+uEOYSGtEfP9EGP37B7iG1Nlpq5iGrujGycJ93kxefcm+mfAoU8IFsWHIi9z2E41wDYtZ067KWxgG0TE/sXdIEQVzYRlx7renaYl9uvRYQBycCVFmseQUsjj454hgoX63SOAArfOfUUc5oxQspa93vrtfrw7QsgZ6+IpqdwLGh81PmzW4Q5XW0cH8r2MxjBEWHIuDZu2HobtlskDAeZPKrFDGMR+jzeiZEI6Z2QAhcY1WItexkXBKgF1UP9UL5f5AI+145TIJ5yVjL935/XduzFWybMr0IlhcVxEfTbTECobu+tJovJT8pQeNuQpKVL8fjyUgYsRhDHjtf0c0S+35mdR8
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 103
+    type : 19
+    code_elements :
+     type_code : 25
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 19
+        enabled : false
+      -
+        type : 20
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_CONTINUER_MEDIA3
+    identifier : 0x2850f6b692e4976f
+    internal_properties : CAAAAAgAAACwldXe4YO1RtH2R/x54XdEIAa5w/BHsEg8fSSpbVliLVUbOwRVs1evsuZtp99bAZcLhhv/9E7n6rzAw/3pOMs1gun11yxjBf7fY/pFJ1WwnrjVldRWXyN+xpsY7j1dasiR8jTBDOBlxDJ/Q7xzOAbVR/znOwxs53nJiHxXXXa+0Gv76dTfOnbG5oUdRytII+A067zVcZzoNdXDQ22Dfs2C92tUMmjtQYcexiN3bl1Uu21rAuCmKxIsaZuOlTAXDcAWadrDUaTF8aCmvhCNI9QekxiGpdUp4Ylx5UrycJT9NRYwbHpqtc4BTTDfA+UVGKx+HJPjQdBlJDgzCbe0CIMxDvQHnRDYL56v8DmDDqgbhUwYGOL5UopZXswtTSdyD9HcBC3W9n61VeDtJAaytyCwH8/AEBSut5s/DB7Jx0aJdAhUdCsMSSFIF3SGFYmi8ZLJvQPhWW8LKvev300Dz0icFIjgDzJ21BstiEP9XpBLQ7ENfl5pLN+EIStOQONQ9QCZ6c6LPWtcnRhhVY8GTu46+4uDuH0b6nAWxaNbyFXIFJfxPhfv7z8KhvlufWll/Iwpb8JeL42NiR3HKEfPhcOEjITF65AtcGPUuNiaMb/EA9KLyGyvsVTiS4e5W5By6cCM2HWQ+ScDRruK6mVD5LW6
+    properties :
+     x : 77
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         AnimationPrépare(MaFenêtre)
+         
+         // Revient au plan initial
+         MaFenêtre..Hauteur = MaFenêtre..HauteurInitiale
+         mafenetre..plan = 1
+         
+         animationjoue(1)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CONTINUER_MEDIA4
+    identifier : 0x2850f86a98373df3
+    internal_properties : CAAAAAgAAAARZLaTYkQ+xpmR4oh1qFThZub/+jg7vkDpwRlz5VhK0UIltpKZxJw3V3OncS9a2jNutml/b+216f6YC5K3/pqSXBKRMS4w2AfNyVulYfDF463MsOyKtzq0m1kxs4XAcdY0U2S8RCYvlhncquzpO/cmwZ9aH640f2dEeX6c29ZRIe5/zDhwQsjy6LJdrfiN0zC1AFDA0TO5YuK/cZK0iuV5sapjYgEfV7+he6+fXVDy803ny0T2BQq0Gtw3kbThwiusq4BQlsE4ifOlKWvDYQIBnSiVj7d5gMXN4j3Y5uBxy+8lu9GhTtHMm6PTg1S7ml+nk2Mclu5AnD5fjBV017Av7iHApOq7O4xzb85XDlLsPvIA7AZ45AkCHCnpPaH3mANTUzVZBAimsuqnDtsea5yEqpi13+c3kx8RpqMUsyyGwC1klo5Yc8pjl7QbPs8taTqgdVtqDuR8F9WddzHiIHBYJtILWM0CRqMPXcKrSzi+m7KN1xVUfeDkUqcrSBL8uK2pL3kVwY8WbtkbwMHHCz4ceXXexz/U28khzO0i8037jRryRV07N7KZcXwDsiM1XbtR/31O/ifGnZH804p1RSBu09U3CgcB8LykySsyD8g4TWqfJUD52YWkybmYQ6uC/BBujP7ruyUeuRHaG6n/IISd4crNSZYLf3tcO+22
+    properties :
+     x : 162
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Vide la liste
+         gsListeFichiers = ""
+         ArbreSupprimeTout(ARBRE_LISTEFICHIERS)
+         
+         // Annule la compilation
+         GraveurAnnuleGravure()
+         
+         // RAZ de la jauge
+         Evénement_JaugeRemplissage(0)
+         
+         AnimationPrépare(MaFenêtre)
+         
+         // Revient au plan initial
+         MaFenêtre..Hauteur = MaFenêtre..HauteurInitiale
+         MaFenêtre..Plan = 1
+         
+         AnimationJoue(1)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_AJOUT_FICHIER
+    identifier : 0x2850ff5ebf0764f0
+    internal_properties : CAAAAAgAAABWlZfkqs/Q/qVwZjjyPdn/j04nVg8/5wPRisbKGxAhR1sToakN1q6ewChV6eCwC2a8Gd8wXIgpPoqUNAF4dWCvF0WNdzqZwYuR0H93uFELMu2SnBfn88B6ISswlm78X2xAb8UECWX2sbDLA5G5RxdI7sZGC3DcJ0gzW+4bP2s5D8GZ7km4RUfj9DLW7e9WXMdl07Sry3rfEg3Uf9IvkIGcjvEUpccyU8EQypET0ATY55te4ymC2M2QzGjamjtTBncrmfaB3VPp5OTn1d09ZVe2MJRcnx/SfNlqpAaRl8L1YQsFvxO/MIthdYTkK9sbWzLwaz6NnE6FKnr6Vh6nqQNrPSJGRiVAp56RxwOF2xG4HwLnD66lEYn5v83JZaD5N3MvllZqpm+iQC+6VFv31tOAB7Rmt1iT9JMMjh9TpCmuocSFNsGGhlS+1kgt7raF6Iqf0X6rcrJqRHZCeecDeT5FQ545WiDGHdVtpGfg9VtJNJhgF7ULvFasEig1kDs1trIj+6IIZ7RMf/XBAKpROtCislyc0bVlvDNNpWplZMkRIL7L4v2mmyU/Hygd3n6ERnIPmHt8FJschjQVhiccFHz7LpBvFeQvqSuooqHGFPMPkYA8H17aka9KCpJ1ZDI7db1XxYIdmE7n6Rwo+sO3SZB5NObVEdjL61Lw0A+W/SNCAFcs/VqLZcYaOsHyl9DYnBjcemlJ0A7hU0w4AO/T8ehrHPBneUebg/Te
+    properties :
+     x : 34
+     y : 46
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         sListeSélection est une chaine
+         sListeSélection = fSélecteur("", "", "Sélectionnez un fichier...", "Tous fichiers (*.*)"+TAB+"*.*", "*", fSelOuvre+fSelExiste+fselMulti)
+         
+         si sListeSélection <> "" alors
+         	
+         	// Ajoute les fichiers
+         	Evénement_DragAndDropExplorateur(faux, sListeSélection)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_FONDAIDE
+    identifier : 0x2852314e04527046
+    internal_properties : CAAAAAgAAAB/KYHh8YRiIjPL6SnBivLw+eV9ffpWw8s5C9WrL8v2F9CODw1LLo+m6wLBIDAWrMVxzJjAan3CFvtrsakaFE5gzY+dTZCIGY1/rxpPCNnEPAMxUpM15yID3Q0IlWmU7JdvnOao1WSMxPbTZ3whnpC9AMSKGDMJkgah3Mq3d7yNUUA9r4APwvUaJk5mVpYfwhTaHLXl0hrCTPgHID0qotaTDL6mEas3e+iy624X2plUNRZEZytAoZkGE8RO1XqoWeuhwYjq1bVGdUcjbryTDd78PgWGx6DV7QKhdklBv2ju/lqc0omGzH/Q0IwE6j/Qs0F/Fdw5H9XVfEwvOw63CE4yyfcgurnIE7MSkPqOEa49xzb8VCuafff+gLj5lca3UDLpfApLOtMLamQ1XLYMsnCFJEjNto2ivOxXwDrYCuzeAGnnQQbDIyuMjIU3yjqkOoTKBM21MXct7KR/u+qZcjqFZzWiDocmW+t3a00ALeSzdhtU7UwmyZYOgKBvE6LIsmuIHCZEvtkNXXXqRW9ozSN9GgpRGTAeR7H91s4tIxOvRv6XGf7KHA+8OeBl6/d0hlZXq3RW5BxZ5F5VBDYZ8lUD1GOaukIJcgjWZ2uVLj2aFVaL93XkKA1PN9E3vsyr
+    properties :
+     x : 89
+     y : 103
+     width : 200
+     height : 100
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         GR_AIDE..Visible = Faux
+        type : 18
+  -
+    name : LIB_Pour_plus_de_simplicité
+    identifier : 0x2852316a094fdf5b
+    internal_properties : CAAAAAgAAAD1fAfQJz5e3h3eB1PkrIjjmO2Y+mNmV/K9Hg6o08b9ggeIVdWZiVhnEx+E7e5ottMisCUvq1sl4GQC6/3Hg4bQiGZjGLtyhaTK2ffl9POnk4aUKcPkbm5u+QiKq2il9CWwvecK70zYpssnGot6T/yp0fOGBhgppKos6x8ydCfooj4Y2EIdS+O+6vX2/daacdF67d3Ilq3Ch95DAr4g0Ix+DuIUwQRhZfdz7UmN9Et/MoSJh9yDsemFWsezaPXQnnplWhK/7njB5nztFUhgCoxdDWDbVX3bgIsMYpemCaOMl9BtYmgfHH/XZnwS+StLUWdKI4uxh757FOxL6IVJ99Ynn160fhDyRh+yAIeRSrHlGrwiNfwsg35VkqaOe0KBEBGIiE3p84qmkA0heYRYEXPT5WtHH61MLddX5Wq3XcUHFAkEYHpnetznJQ3xuKvj04UYTFbETbKl13Q7Rrd1f6oPwyGU90zUHOcQkFajRigrNi0rN9Luq8QVmmEQF6IQnHd5qdRPgLopVfjC2bYEEPRdNaC6aStIVj1KLLFgTvgC
+    properties :
+     x : 96
+     y : 130
+     width : 184
+     height : 66
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_SIMULATION
+    identifier : 0x2858e37a11096e70
+    internal_properties : CAAAAAgAAAADk8DzoLKNvUKB64JGn5e1/+f0maUukEYM9BogM0CKVee0SBMU1KJExSYOKHCeQmzCGlTYXnUQxI6Igh4x65E5FS61JSFTdoewAL7LaKkMDmYQdusdam+3KFgPT1ZYfFF4GnGpsUwpUC0Ee2UOC5t37ICjFg8zS+wy/UjioFXZvmvf++UqkP+CfGu9Ux+kWOEHvbeDiz0fEdtKeIyMhz4We5rdeU7lGNc/AIFqXLIk9xp5ZKxkidbN/hFtxCOURLGlGtVS3Cwo6rpqtxPdtXlommNSAM8ypvkXj4A+Anba8CdFPD1yj2lxYUiJMuHnrG7u81YT0P5Gg6sB4sa8KvHM75ZYy3HDJtpXxCI8cBc=
+    properties :
+     x : 149
+     y : 18
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x284fd2131be432b2
+  internal_properties : CAAAAAgAAADPNsfe8nRPP85Q8ZWaPhS3cm+gBJXYmWVDB2OxLHCawvMMVbraWiBVomOfBsqkL6eMx7NioLSf72OJRISgFLL3kQNoF1dRbX59UGIM1LMdvmxUL38gfdgJ4/jLbhydvvQdF+U7fB9oGuexZsl/Cb+jCbha83fj6pDCywXZuctegZf5uSfSPutfzoDsnsidKhntXo9AFZKr64zLKtt4CqzvvAx3VNvKf+B8rbsVaybkU1HLJ+SIqf0zHzzCWN2xuumzDHUrCiUE/1nlY6YrDgOfc1nUj7Ykul4COVjoqOkQMw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADAMMaV1eqYeRILJ50hR0tdyk5qYw5yvL4lml4IdoeThJcg4wBHzxE7CAZsviHyEaT8d/n+7J35Fql24V4skdafo0WipT9qOWF76hGVsdPuFdQBUxkO9ByxiPucBw==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABtZKxvOfvsDSvUof8YZJI1arT2vC/VhFn9roz+qi3DcSRBgYEgP90TUu2Sz/F4/WxHy+27+Lmmy4gVBeJje5P8p/t7f26lY3VzbCRFv0k4P/0yR/W/xUvuZ6hBjzUx6OJrJwhyjNV1tDQefDeK2zld+Lc903X4HXFkGZ/20cfiYQ==
+     code : |1-
+      
+      GR_AIDE..visible = faux
+      
+      gbTiroirOuvert 		est un booléen = faux		// Tiroir du graveur (par défaut : fermé)
+      gbGraveurPrésent 	est un booléen = faux		// Etat du graveur
+      gbMédiaPrésent		est un booléen = faux		// Média présent dans le lecteur
+      gnTailleTotale		est un entier sur 8			// Taille totale du média
+      gnTailleUtilisée	est un entier sur 8			// Taille totale utilisée
+      gnTailleCompilation	est un entier sur 8			// Taille totale de la compilation
+      gnTailleLeads		est un entier				// Taille des blocs d'entête de compilation
+      gnTypeMedia			est un entier				// Type du média inséré
+      gsListeFichiers		est une chaine				// Liste des fichiers de la compilation
+      gsGraveurChemin		est une chaine 				// Chemin du graveur
+      TH_Ajouté			est un booléen				// Variable utilisée par les fonctions d'ajout de fichier/répertoire
+      TH_AjoutEnCours		est un booléen				// Variable utilisée par les fonctions d'ajout de fichier/répertoire
+      
+      
+      // Gère l'événement d'insertion d'un CDROM
+      evenement(Evénement_InsertionCD, "*.*", "INSERTION_CDROM")
+      
+      // Gère l'événement de fin de gravure
+      evenement(Evénement_FinGravure, "*.*", "FIN_GRAVURE")
+      
+      // En mode test, la gravure est simulée
+      si EnModeTest() ALORS
+      	mafenetre..titre += " - Mode simulation"
+      	LIB_SIMULATION..visible = vrai
+      sinon
+      	LIB_SIMULATION..visible = faux
+      FIN
+   -
+     code : |1-
+      
+      // Positionne la fenêtre en bas de l'écran
+      mafenetre..x = sysxres - mafenetre..largeur - CoordonnéeEditeurVersEcran(10)
+      mafenetre..Y = sysYres - mafenetre..hauteur - CoordonnéeEditeurVersEcran(40)
+      
+      // Récupère les caractéristiques
+      RécupèreInfoGraveur()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : RécupèreTypeMédia
+     internal_properties : CAAAAAgAAACmXmVWAOY6WGwBmlBIUBMhN3JObuzBFj9SNYTxlri//QP3hypPqiG2u3Gvo5bFkUHGWS7veOWd1Qh071Bg6fR/vHqxz3FWPH9fd3AvQjd2bHiUv37MWA/5xERTaYuSylZZ38MwD+vnaW4YT46IeMZssryXq09BaDoebCpSuuYtang9biLBMkBdxKPKjC0tcsIOx+xXsOI1
+     procedure_id : 1751850540801784304
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche le type de média inséré dans le graveur
+      // Syntaxe :
+      //RécupèreTypeMédia ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //// Traitement automatique des erreurs :   exécuter le bloc de code CAS ERREUR
+      //
+      
+      Procédure RécupèreTypeMédia()
+      
+      	// Le graveur doit être inactif
+      	si RécupèreEtatGraveur() <> GraveurInactif alors retour
+      		
+      	// Conserve le type de média
+      	gnTypeMedia = GraveurInfoMédia(médiaFormat)
+      		
+      	// En fonction du type de média inséré
+      	selon gnTypeMedia
+      		
+      		// Disque Blu-Ray
+      		cas médiaFormat_BD_R, médiaFormat_BD_Re, médiaFormat_BD_ROM
+      			
+      			// Icône 'Blu-ray'
+      			IMG_TYPE_MEDIA = "\images\type-bluray.png"
+      			IMG_TYPE_MEDIA..CurseurSouris = curMainSystème
+      			IMG_TYPE_MEDIA..bulle = "Disque Blu-Ray"
+      
+      			// Modifie l'image de fond de la fenêtre
+      			MaFenêtre..ImageFond = "\images\graveur-pret.png"
+      			gbMédiaPrésent = vrai
+      			BTN_GRAVURE..Etat = Actif
+      			
+      			GraveurNomVolume("BR-" + datedujour)
+      		
+      		// Disque DVD
+      		cas médiaFormat_DVD_R_HD, médiaFormat_DVD_RAM, médiaFormat_DVD_RAM_HD, médiaFormat_DVD_ROM, médiaFormat_DVD_ROM_HD, médiaFormat_DVDmoinsR, ...
+      		 	médiaFormat_DVDmoinsR_DL, médiaFormat_DVDmoinsRW, médiaFormat_DVDplusR, médiaFormat_DVDplusR_DL, médiaFormat_DVDplusRW, médiaFormat_DVDplusRW_DL
+      		 	
+      			// Icône 'DVD'
+      			IMG_TYPE_MEDIA = "\images\type-dvd.png"
+      			IMG_TYPE_MEDIA..CurseurSouris = curMainSystème
+      			IMG_TYPE_MEDIA..Bulle = "Disque DVD"
+      
+      			// Modifie l'image de fond de la fenêtre
+      			MaFenêtre..ImageFond = "\images\graveur-pret.png"		
+      			gbMédiaPrésent = Vrai	
+      			BTN_GRAVURE..etat = Actif
+      			
+      			GraveurNomVolume("DVD-" + DateDuJour)
+      
+      		 // Disque CD
+      		cas médiaFormat_r, médiaFormat_Rw
+      			
+      			// Vérifie si c'est un CD Audio
+      			si GraveurInfoMédia(médiaType) = médiaType_CDDA_CDROM ALORS
+      
+      				// Icône 'CD-a'
+      				IMG_TYPE_MEDIA = "\images\type-cda.png"				
+      			sinon
+      				
+      				// Icône 'CD'
+      				IMG_TYPE_MEDIA = "\images\type-cd.png"	
+      			FIN
+      			
+      			// Modifie le curseur
+      			IMG_TYPE_MEDIA..CurseurSouris = curMainSystème
+      			IMG_TYPE_MEDIA..Bulle = "Compact-Disc"
+      			
+      			// Modifie l'image de fond de la fenêtre
+      			MaFenêtre..ImageFond = "\images\graveur-pret.png"
+      			gbMédiaPrésent = Vrai
+      			BTN_GRAVURE..Etat = actif
+      			
+      			GraveurNomVolume("CD-" + DateDuJour)
+      						
+      		// Disque de type inconnu ou inutilisable
+      		AUTRE CAS
+      			
+      			// Aucune icône spécifique
+      			IMG_TYPE_MEDIA = ""
+      			IMG_TYPE_MEDIA..CurseurSouris = curFlèche
+      			IMG_TYPE_MEDIA..bulle = ""
+      
+      			// Modifie l'image de fond de la fenêtre
+      			MaFenêtre..ImageFond = "\images\graveur-vide.png"		
+      			gbMédiaPrésent = faux
+      			BTN_GRAVURE..Etat = Grisé
+      			
+      			// Ouvre le tiroir du graveur
+      			GraveurEjecte(vrai)
+      			
+      			mafenetre..plan = 3
+      	FIN
+     type : 458752
+   -
+     name : RécupèreInfoMedia
+     internal_properties : CAAAAAgAAACCwx1VO57i7fb297D/Nfs2OIUqpfrn+ZA1D9rEGFXAT/43LTFHQ2mYuerzoSjczonkXzFQqjyPcu2d4py58E9CB531WkrIvVwlpmSH/RB1eqGe/cRHSt2+nP4LnL1olVzB/qwfhEGuxTrOpj1Z
+     procedure_id : 1751857429929357958
+     type_code : 14
+     code : |1-
+      // Résumé : Récupère des infos sur le média inséré
+      // Syntaxe :
+      //RécupèreInfoMedia ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure RécupèreInfoMedia()
+      
+      	nEtatGraveur est un entier
+      	
+      	// Récupère l'état du graveur
+      	nEtatGraveur = RécupèreEtatGraveur()
+      
+      	// Le graveur ne doit pas être en cours d'utilisation
+      	si nEtatGraveur <> graveurInactif alors
+      				
+      		// L'éjection n'est possible
+      		BTN_EJECTER_MEDIA..Etat = grise
+      		BTN_LISTE_FICHIERS..Etat = grise
+      		BTN_NOM_MEDIA..Etat = grise
+      		BTN_AJOUT_FICHIER..Etat = grise
+      		
+      		// Pas de remplissage
+      		Evénement_JaugeRemplissage(0)
+      		
+      		// Aucune icône spécifique
+      		IMG_TYPE_MEDIA = ""
+      		IMG_TYPE_MEDIA..CurseurSouris = curFlèche
+      		
+      		gbMédiaPrésent = faux	
+      	sinon
+      			
+      		////
+      		Sablier(Vrai)
+      		IMG_SABLIER..Animation = Vrai
+      		
+      		// Affiche le type (CD, DVD ou Blu-Ray)
+      		RécupèreTypeMédia()
+      		
+      		nTailleMaximale est un entier sur 8
+      		nTailleUtilisée	est un entier sur 8
+      		
+      		// Récupère la taille maximale (en blocs) du média inséré
+      		nTailleMaximale = GraveurInfoMédia(médiaTailleTotale)
+      		
+      		// Récupère la taille utilisée (en blocs) du média inséré
+      		nTailleUtilisée = GraveurInfoMédia(médiaTailleUtilisée)
+      		nTailleUtilisée = max(0, nTailleUtilisée)
+      		
+      		// Cas des CD-a
+      		SI nTailleMaximale <= 0 ALORS
+      			
+      			// On adjuge une taille par défaut pour les CD-a
+      			// 2 048 octets par blocs
+      			//	  75 blocs par seconde
+      			//    60 secondes par minute
+      			//    74 minutes par CD
+      			// -------------------------
+      			// 681 984 000 octets (soit ~650 Mo)
+      			nTailleMaximale = 75 * 60 * 74
+      		FIN
+      		
+      		// Récupère la taille totale en octets
+      		nTailleMaximale = 2048 * nTailleMaximale
+      		
+      		// Récupère la taille utilisée en octets
+      		nTailleUtilisée = 2048 * nTailleUtilisée
+      		
+      		// Récupère la taille des entêtes
+      		gnTailleLeads   = val(GraveurInfoCompilation(compilationBlocsUtilisés)) * val(GraveurInfoCompilation(compilationTailleBloc))
+      		
+      		// Conserve les tailles
+      		gnTailleTotale 		= nTailleMaximale
+      		gnTailleUtilisée	= nTailleUtilisée
+      		
+      		// Remplissage actuel		
+      		Evénement_JaugeRemplissage(nTailleUtilisée, nTailleMaximale)
+      		
+      		// Affiche la taille max
+      		LIB_TAILLEMAX = fTailleFormat(gnTailleTotale)
+      		
+      		// L'éjection est possible
+      		BTN_EJECTER_MEDIA..Etat = Actif
+      		BTN_LISTE_FICHIERS..Etat = Actif
+      		BTN_NOM_MEDIA..Etat = Actif
+      		BTN_AJOUT_FICHIER..Etat = Actif
+      		
+      		IMG_SABLIER..Animation = faux
+      		Sablier(Faux)
+      		////
+      	FIN
+      	
+     type : 458752
+   -
+     name : Evénement_DragAndDropExplorateur
+     procedure_id : 1751864611114840667
+     type_code : 14
+     code : |1-
+      // Résumé : Gère l'événement de drag 'n drop de fichiers depuis l'explorateur
+      // Syntaxe :
+      //Evénement_DragAndDropExplorateur ( [<bDepuisExplorateur> est booléen [, <sListeFichiers> est chaîne]])
+      //
+      // Paramètres :
+      //	bDepuisExplorateur (booléen - valeur par défaut=1) :<indiquez ici le rôle de bDepuisExplorateur>
+      //	sListeFichiers (chaîne ANSI - valeur par défaut="") :<indiquez ici le rôle de sListeFichiers>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure Evénement_DragAndDropExplorateur(local bDepuisExplorateur est un booléen = vrai, local sListeFichiers est une chaine = "")
+      
+      	nNbFichiersDroppés 		est un entier
+      	sFichier				est une chaine
+      	nTailleFichier			est un entier sur 8
+      	sListeErreurs			est une chaine
+      	
+      	// Pas de média, ni de graveur, on sort
+      	SI gbMédiaPrésent = Faux _ou_ gbGraveurPrésent = faux ALORS
+      		retour
+      	FIN
+      	
+      	sablier(vrai)
+      	
+      	LIB_TITRE = "Ajout de données..."
+      		
+      	IMG_SABLIER..Animation = Vrai
+      	
+      	// Récupère le nombre de fichiers
+      	si bDepuisExplorateur alors
+      		nNbFichiersDroppés = ExplorerRécupère(_eve.wparam)
+      	sinon
+      		nNbFichiersDroppés = ChaîneOccurrence(sListeFichiers, rc) + 1
+      	fin
+      	
+      	// Récupère les fichiers
+      	pour i = 1 _a_ nNbFichiersDroppés
+      		
+      		// Récupère le chemin du fichier
+      		SI bDepuisExplorateur ALORS
+      			sFichier = ExplorerRécupère(_eve.wparam, i)
+      		sinon
+      			sFichier = Extraitchaine(sListeFichiers, i, rc)
+      		fin
+      		
+      		// Vérifie s'il s'agit d'un répertoire ou d'un fichier
+      		si fRépertoireExiste(sFichier + ["\"]) = Vrai ALORS
+      			
+      			// Récupère la taille du répertoire
+      			nTailleFichier = frepTaille(sFichier, frRécursif)
+      			
+      			// Vérifie si l'ajout du répertoire ne va pas provoquer un dépassement de la taille du média
+      			si VérifieTailleCompilation(nTailleFichier) = vrai alors
+      			
+      				LIB_INFO = sFichier
+      			
+      				// C'est un répertoire, on doit prendre tous les fichiers qu'il contient
+      				TH_AjoutEnCours = Vrai
+      				TH_GraveurAjouteRépertoire(sFichier, graveurAjoutRécursif + graveurAjoutInterruptible) 
+      				
+      				// Attend la fin de l'ajout
+      				TANTQUE TH_AjoutEnCours
+      					ThreadPause(50)
+      				FIN
+      				
+      				SI TH_Ajouté alors
+      					
+      					// Complète la liste des fichiers
+      					gsListeFichiers += [RC] + "REP\" + extraitchaine(sFichier, rangDernier, "\") + tab + sFichier
+      					
+      					// Complète la jauge de remplissage
+      					Evénement_JaugeRemplissage(nTailleFichier)
+      					
+      					// Complète la taille de la compilation			
+      					gnTailleCompilation = GraveurInfoCompilation(compilationBlocsUtilisés)	
+      					
+      					// Ajoute les autres fichiers/répertoires
+      					continuer
+      				fin
+      				
+      			fin
+      			
+      			// Si la vérification a échoué ou si l'ajout du répertoire a échoué
+      			// On complète l'historique des erreurs	
+      			sListeErreurs += [rc] + chaineconstruit("Impossible d'ajouter le répertoire <[%sFichier%]> : La taille de ce répertoire (%1) est trop importante pour qu'il puisse être ajouté (espace disponible : %2)", fTailleFormat(nTailleFichier), fTailleFormat(gnTailleTotale - (gnTailleUtilisée + gnTailleCompilation)))
+      			
+      		sinon
+      			// Récupère la taille du fichier
+      			nTailleFichier = fTaille(sFichier)
+      			
+      			// Vérifie si l'ajout du fichier ne va pas provoquer un dépassement de la taille du média
+      			SI VérifieTailleCompilation(nTailleFichier) = Vrai ALORS
+      				
+      				LIB_INFO = sFichier
+      			
+      				// C'est un fichier, on l'ajoute à la liste
+      				TH_AjoutEnCours = Vrai
+      				TH_GraveurAjouteFichier(sFichier)
+      				
+      				// Attend la fin de l'ajout
+      				tantque TH_AjoutEnCours
+      					ThreadPause(50)
+      				fin
+      				
+      				// Si le fichier a bien été ajouté
+      				si TH_Ajouté alors
+      					
+      					// Complète la liste des fichiers
+      					gsListeFichiers += [RC] + "FIC\" + fExtraitChemin(sFichier, fFichier+fExtension)
+      					
+      					// Complète la jauge de remplissage
+      					Evénement_JaugeRemplissage(nTailleFichier)
+      				
+      					// Complète la taille de la compilation			
+      					gnTailleCompilation += nTailleFichier
+      					
+      					// Ajoute les autres fichiers/répertoires
+      					continuer
+      				fin
+      				
+      			fin
+      			
+      			// Si la vérification a échoué ou si l'ajout du répertoire a échoué
+      			// On complète l'historique des erreurs	
+      			sListeErreurs += [RC] + ChaîneConstruit("Impossible d'ajouter le fichier <[%sFichier%]> : La taille de ce fichier (%1) est trop importante pour qu'il puisse être ajouté (espace disponible : %2)", fTailleFormat(nTailleFichier), fTailleFormat(gnTailleTotale - (gnTailleUtilisée + gnTailleCompilation)))
+      			
+      		FIN
+      	FIN
+      	
+      	IMG_SABLIER..Animation = Faux
+      	IMG_SABLIER = IMG_SABLIER	
+      	Sablier(faux)
+      
+      	LIB_TITRE = "Prêt"
+      	lib_info  = ""
+      
+      	// Il y a eu des erreurs
+      	si sListeErreurs <> "" alors
+      		
+      		// Affiche les erreurs
+      		erreur(sListeErreurs)
+      	FIN	
+     type : 458752
+   -
+     name : RécupèreInfoGraveur
+     procedure_id : 1751867484447974737
+     type_code : 14
+     code : |1-
+      // Résumé : Récupère les informations sur le graveur
+      // Syntaxe :
+      //RécupèreInfoGraveur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure RécupèreInfoGraveur()
+      
+      	sListeGraveurs 	est une chaine
+      	sGraveur	  	est une chaine
+      	sIdentifiant	est une chaine
+      	sNomGraveur		est une chaine
+      	
+      	LIB_TITRE = "Initialisation..."
+      	
+      	// Récupère la liste des graveurs installés
+      	sListeGraveurs = GraveurListe(vrai)
+      	
+      	// Parcours la liste des graveurs
+      	pour chaque chaine sGraveur de sListeGraveurs separee par rc
+      		
+      		// Extrait l'identifiant du graveur
+      		sIdentifiant = extraitchaine(sGraveur, 1)
+      		
+      		// Extrait le nom du graveur
+      		sNomGraveur = extraitchaine(sGraveur, 2) + [" "] + ExtraitChaîne(sGraveur, 3)
+      		
+      		listeajoute(COMBO_GRAVEUR, glien(sIdentifiant) + sNomGraveur)		
+      	FIN
+      	
+      	LIB_TITRE = "Sélection du graveur..."
+      	
+      	// Si il n'y a qu'un seul graveur, on le sélectionne automatiquement
+      	si COMBO_GRAVEUR..occurrence = 1 ALORS
+      		
+      		// Sélectionne le premier graveur
+      		ListeSelectPlus(COMBO_GRAVEUR, 1)
+      		GraveurSélectionne(COMBO_GRAVEUR)
+      		
+      		// Automatise la sélection du graveur
+      		ExécuteTraitement(BTN_VALIDER_GRAVEUR, trtclic)
+      	
+      	// Si il n'y a aucun graveur
+      	sinon si COMBO_GRAVEUR..Occurrence = 0 alors
+      		
+      		// L'éjection n'est possible
+      		BTN_EJECTER_MEDIA..Etat = Grisé
+      		BTN_LISTE_FICHIERS..Etat = Grisé
+      		BTN_NOM_MEDIA..Etat = Grisé
+      		BTN_AJOUT_FICHIER..Etat = Grisé
+      		
+      		// Pas de remplissage
+      		Evénement_JaugeRemplissage(0)
+      		
+      		// Aucune icône spécifique
+      		IMG_TYPE_MEDIA = ""
+      		IMG_TYPE_MEDIA..CurseurSouris = curFlèche
+      		
+      		// Pas de graveur
+      		gbGraveurPrésent = Faux
+      		
+      		// Affiche une erreur
+      		Erreur("Aucun graveur n'est installé sur cet ordinateur")				
+      		retour
+      		
+      	// On doit afficher la liste des graveurs
+      	sinon
+      		
+      		// Affiche le premier plan de la fenêtre qui permet de sélectionner le graveur à utiliser
+      		mafenetre..plan = 2
+      		ComboOuvre(COMBO_GRAVEUR)
+      	FIN
+      	
+      	// Active la détection d'insertion de média dans les lecteurs
+      	fDétecteStockageAmovible(Evénement_DétecteInsertionCD)
+      	
+      FIN :
+      	LIB_TITRE = "Prêt"
+     type : 458752
+   -
+     name : Evénement_DétecteInsertionCD
+     procedure_id : 1751888817554078771
+     type_code : 14
+     code : |1-
+      // Résumé : Gère l'événement d'insertion d'un CD
+      // Syntaxe :
+      //Evénement_DétecteInsertionCD (<sLettreLecteur> est chaîne, <nTypeAction> est entier)
+      //
+      // Paramètres :
+      //	sLettreLecteur (chaîne) : <indiquez ici le rôle de sLettreLecteur>
+      //	nTypeAction (entier) : <indiquez ici le rôle de nTypeAction>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure Evénement_DétecteInsertionCD(local sLettreLecteur est une chaine, nTypeAction est un entier)
+      
+      	
+      
+      	// Ne traite l'événement d'insertion que s'il s'agit d'un lecteur de CD-ROM ou un graveur
+      	si fDisqueInfo(sLettreLecteur, fdTypeDisque) <> fdCDRom alors retour
+      	
+      	// Si le lecteur concerné n'est pas celui du graveur, on ne traite pas l'événement
+      	si pas gsGraveurChemin [= sLettreLecteur alors retour
+      
+      	// Gère l'événement d'insertion
+      	// (On utilise ici un PostMessage pour exécuter la procédure InsertionCD, en effet, l'événement d'insertion étant reçu dans un traitement parallèle à l'application, 
+      	// la récupération de l'état du graveur n'est pas possible. Il est donc nécessaire d'information le traitement principal de l'application grâce à PostMessage)
+      	postMessage(handle(), "INSERTION_CDROM", nTypeAction, 0)
+     type : 458752
+   -
+     name : RécupèreEtatGraveur
+     internal_properties : CAAAAAgAAAAOP6HZ57I8cW5Cz3iPCcsuKHHWVco32by1mxqUEAFQ97ZDsbF3u3HkqfbruRiw1ums+4VguiQN7HvruMJrCrUobQtv2LxSO86LxEr1J7rDyK/s58ohtEMYGnShAj8SU6KHxP5FZmt6ob5CKrHV
+     procedure_id : 1751895397444066732
+     type_code : 14
+     code : |1-
+      // Résumé : Tente de récupérer l'état du graveur
+      // Syntaxe :
+      //[ <Résultat> = ] RécupèreEtatGraveur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	entier : Etat du graveur
+      //
+      Procédure RécupèreEtatGraveur()
+      
+      	nEtatGraveur est un entier
+      	nNbEssais	 est un entier
+      
+      	// Sélectionne le graveur en cours
+      	GraveurSélectionne(COMBO_GRAVEUR)
+      
+      	// Récupère l'état du graveur
+      	nEtatGraveur = GraveurEtat()
+      	
+      	sablier(vrai)
+      	IMG_SABLIER..Animation = vrai
+      	
+      	// En cas d'erreur temporaire
+      	tantque nEtatGraveur = -1 _et_ nNbEssais <= 3
+      
+      		// Augmente le nombre d'essais		
+      		nNbEssais ++
+      		
+      		// Laisse le système effectuer ses propres opérations
+      		Multitâche(-100)
+      		
+      		// Récupère l'état du graveur
+      		nEtatGraveur = GraveurEtat()
+      	FIN
+      		
+      	IMG_SABLIER..Animation = faux
+      	IMG_SABLIER = IMG_SABLIER
+      	
+      	Sablier(faux)
+      		
+      renvoyer nEtatGraveur
+     type : 458752
+   -
+     name : Evénement_InsertionCD
+     procedure_id : 1751902007398766980
+     type_code : 14
+     code : |1-
+      // Résumé : Gère l'événement d'insertion
+      // Syntaxe :
+      //[ <Résultat> = ] Evénement_InsertionCD ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai
+      //
+      Procédure Evénement_InsertionCD()
+      
+      	nTypeAction est un entier = _eve.wparam
+      
+      	// On vient d'insérer le média dans le lecteur
+      	SI nTypeAction = StockageAmovibleInséré ALORS
+      		
+      		// Récupère les informations sur le média inséré
+      		RécupèreInfoMedia()		
+      		
+      		// Revient au premier plan
+      		MaFenêtre..Plan = 1		
+      		
+      		// Fin de l'attente
+      		IMG_SABLIER..Animation = Faux		
+      		
+      	SINON
+      		
+      		// Aucune icône spécifique
+      		IMG_TYPE_MEDIA = ""
+      		IMG_TYPE_MEDIA..CurseurSouris = curFlèche
+      		
+      		// Modifie l'image de fond de la fenêtre
+      		MaFenêtre..ImageFond = "\images\graveur-vide.png"		
+      		
+      		// Aucun média présent dans le lecteur
+      		gbMédiaPrésent = Faux
+      	FIN
+      	
+      RENVOYER vrai
+     type : 458752
+   -
+     name : VérifieTailleCompilation
+     internal_properties : CAAAAAgAAABslwhuugADsYrKZ1XKdkvid5RUjApTJX4wWtQ1tRyK6waTMYTBkjB9IBg6+M6WNQ5s3Lz1tg6105gULa4k5Aw9twj6ImxKb2oGXupoStv0Z3RJJ8+7nCE+yueCfLFSrJEhgBedYhfD/A7J5GOino9yC3kNhJ6LTvX+u3r081/NQLwGMJTdnAPemjc539Lagx5QtkE81/w=
+     procedure_id : 1751906590128955584
+     type_code : 14
+     code : |1-
+      // Résumé : Vérifie si on ne dépasse pas la taille limite
+      // Syntaxe :
+      //[ <Résultat> = ] VérifieTailleCompilation (<nTailleFichier> est entier)
+      //
+      // Paramètres :
+      //	nTailleFichier (entier) : Taille de fichier à ajouter
+      // Valeur de retour :
+      // 	booléen : Vrai si on ne dépasse pas la taille limite, Faux sinon
+      //
+      Procédure VérifieTailleCompilation(local nTailleFichier est un entier)
+      
+      	// Taille de la compilation + Taille actuellement utilisée sur le média + Taille du fichier ou du répertoire <= Taille totale disponible sur le média - Taille des blocs d'entête
+      	si (gnTailleCompilation + gnTailleUtilisée + nTailleFichier) < (gnTailleTotale - gnTailleLeads) ALORS
+      				
+      		// On ne dépasse pas la taille limite
+      		renvoyer vrai		
+      	sinon
+      		
+      		// On dépasse la taille limite
+      		renvoyer faux
+      	FIN
+     type : 458752
+   -
+     name : Evénement_JaugeRemplissage
+     procedure_id : 1751915300331672021
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Evénement_JaugeRemplissage (<nAjout> [, <nTotal>])
+      //
+      // Paramètres :
+      //	nAjout : <indiquez ici le rôle de nAjout>
+      //	nTotal : <indiquez ici le rôle de nTotal>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure Evénement_JaugeRemplissage(local nAjout, LOCAL nTotal = JAUGE_REMPLISSAGE..BorneMax)
+      
+      	nPourcentageUtilisé est un entier
+      	nTailleOccupée		est un entier sur 8
+      
+      	// Modifie la borne maximale
+      	si nTotal <> JAUGE_REMPLISSAGE..BorneMax ALORS
+      		JAUGE_REMPLISSAGE..BorneMax = nTotal
+      	FIN
+      	
+      	// Complète la jauge
+      	si nAjout = 0 ALORS
+      		JAUGE_REMPLISSAGE = 0
+      	sinon
+      		JAUGE_REMPLISSAGE += nAjout		
+      	FIN	
+      	
+      	// Récupère l'espace occupé (réel)
+      	nTailleOccupée = val(GraveurInfoCompilation(compilationBlocsUtilisés)) * val(GraveurInfoCompilation(compilationTailleBloc))
+      	
+      	// Affiche la taille utilisée (sans les entêtes)
+      	LIB_TAILLEUTILISEE = fTailleFormat(JAUGE_REMPLISSAGE)
+      	
+      	// Calcule le pourcentage d'utilisation du disque
+      	nPourcentageUtilisé = (nTailleOccupée * 100 / nTotal)
+      	
+      	nCouleur  est un entier = RVB(134, 227, 134)
+      	
+      	// Décrémente la couleur en fonction du pourcentage
+      	nCouleur = TSL(CouleurTeinte(nCouleur) * max(0, (100 - (nPourcentageUtilisé + modulo(nPourcentageUtilisé, 10)))) / 100, 50, CouleurSaturation(nCouleur) + modulo(nCouleur, 10))
+      	
+      	// Modifie la couleur du libellé (vert : espace ok, et plus cela tend vers le rouge, plus cela indique que l'espace va bientôt manquer)
+      	LIB_TAILLEUTILISEE..couleur = nCouleur
+      	
+      	fenrepeint()
+     type : 458752
+   -
+     name : TH_GraveurAjouteFichier
+     internal_properties : CAAAAAgAAAC4irx2GRdTb938NGaZ/Pcb9uyJqugrv6sDAP5dUR1odLotw6Z4t7dRGT2/FjdOPKZTPMI5vb4R5cSgU7TjkAgCkdHX0d4zOPffTk/DDwL+cKBQX2HquTuL9rd4GWq19pBf45sP1Q4Hb9xT1Jy5Vxt7pUZr2EcQnvQa4/hJStwlgSwj3AKEa92Hxgd3wj/h9Jul6SglHQ==
+     procedure_id : 1752139995827705087
+     type_code : 14
+     code : |1-
+      // Résumé : Ajoute un fichier à la compilation (dans un thread secondaire)
+      // Syntaxe :
+      //TH_GraveurAjouteFichier (<sFichier> est chaîne)
+      //
+      // Paramètres :
+      //	sFichier (chaîne) : Fichier à ajouter à la compilation
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure TH_GraveurAjouteFichier(local sFichier est une chaine)
+      
+      	TH_Ajouté = faux
+      		
+      	// Ajoute le fichier à la compilation
+      	TH_Ajoute = GraveurAjouteFichier(sFichier)
+      	
+      	// Fin de l'ajout
+      	TH_AjoutEnCours = faux
+     type : 458752
+   -
+     name : TH_GraveurAjouteRépertoire
+     internal_properties : CAAAAAgAAAC4irx2GZdTb938NGaZ/Pcb9uyJqugrv6sDAP5dUR1odLotw6Z4t7dRGT2/FjdOPKZTPMI5vb4R5cSgU7TjkAgCkdHX0d4zOPffTs9Dj4J+8CDQ3+FqObsLdjf4meo1dhDfYxuPVY6H71zTVBw515v7JcbrWMeQHnSaY3jJylylAayjXIIE610HRof3Qr9hdJul6SglHQ==
+     procedure_id : 1752140485454025545
+     type_code : 14
+     code : |1-
+      // Résumé : Ajoute un répertoire à la compilation dans un thread secondaire
+      // Syntaxe :
+      //TH_GraveurAjouteRépertoire (<sRépertoire> est chaîne [, <nOptions> est entier])
+      //
+      // Paramètres :
+      //	sRépertoire (chaîne) : Répertoire à ajouter à la compilation
+      //	nOptions (entier - valeur par défaut=2) : Options d'ajout
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE TH_GraveurAjouteRépertoire(LOCAL sRépertoire est une chaîne, LOCAL nOptions est un entier = graveurAjoutRécursif)
+      	
+      	TH_Ajouté = Faux
+      	
+      	// Ajoute le répertoire à la compilation
+      	TH_Ajouté = GraveurAjouteRépertoire(sRépertoire, nOptions)
+      	
+      	// Fin de l'ajout
+      	TH_AjoutEnCours = Faux
+     type : 458752
+   -
+     name : Evénement_GravureEncours
+     internal_properties : CAAAAAgAAAB6y3Pc80CyMaKgRUx7QSfgcJsGhyJ5ncAN3RQAfEnoPUqhUZurNfWgPWxtPfQ4xk8oCSVCqura7VgOU7dSFTC7lhxw3dOhTNu0PwX6biVeY7BNCEOsB5DRw6tYPw5lBs2YlePCzeI1aNGcXkWh
+     procedure_id : 1752153885753077918
+     type_code : 14
+     code : |1-
+      // Résumé : Gère l'événement de gravure
+      // Syntaxe :
+      //Evénement_GravureEncours (<nEvénement> est entier [, <sMessageEvénement> [, ...]])
+      //
+      // Paramètres :
+      //	nEvénement (entier) : Evénement
+      //	sMessageEvénement (valeur par défaut="") : Message associé à l'événement
+      // 	<*> : Autres données de l'événement
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure Evénement_GravureEncours(local nEvénement est un entier, local sMessageEvénement = "", *)
+      
+      	LIB_TITRE = "Gravure en cours..."
+      
+      	// Fin de gravure
+      	si nEvénement dans (graveurNotificationAbandon, graveurNotificationErreur, graveurNotificationFinGravure) ALORS
+      		
+      		// Réactive les champs
+      		IMG_ANIMDVD..Visible 	= faux
+      		IMG_ANIMDVD..Animation 	= faux
+      		IMG_ANIMDVD				= IMG_ANIMDVD
+      		BTN_GRAVURE..Etat 		= actif
+      		BTN_EJECTER_MEDIA..Etat = actif
+      		BTN_LISTE_FICHIERS..Etat= actif
+      		BTN_NOM_MEDIA..Etat		= actif
+      		BTN_AJOUT_FICHIER..Etat	= actif
+      		IMG_TYPE_MEDIA..Etat 	= actif
+      		LIB_TITRE				= "Prêt"
+      		LIB_INFO 				= ""
+      		JAUGE_GRAVURE..visible	= faux
+      		
+      		selon nEvénement 
+      			
+      			// Abandon
+      			cas graveurNotificationAbandon
+      				Avertissement("La gravure a été abandonnée")
+      			
+      			// Erreur	
+      			cas graveurNotificationErreur
+      				erreur("Une erreur s'est produite pendant la gravure.", sMessageEvénement)
+      				
+      			// Fin de la gravure
+      			cas graveurNotificationFinGravure
+      				info("La gravure est terminée")
+      			
+      		FIN
+      		
+      		// Relance la détection
+      		PostMessage(handle(), "FIN_GRAVURE", nEvénement, 0)
+      		
+      	sinon
+      		
+      		// En fonction de l'événement
+      		selon nEvénement
+      			
+      			// Le graveur prépare la gravure
+      			cas graveurNotificationPrepareGravure
+      				LIB_INFO = "Préparation en cours..."
+      				
+      				// Affiche la jauge de progression
+      				JAUGE_GRAVURE..Visible	= vrai
+      				
+      			// Le graveur termine la gravure
+      			CAS graveurNotificationFermetureCD
+      				LIB_INFO = "Fin de la gravure..."
+      				
+      				// Cache la jauge de progression
+      				JAUGE_GRAVURE..Visible	= faux
+      				
+      			// Le graveur est en train d'écrire
+      			cas graveurNotificationGravurePiste, graveurNotificationGravureBloc
+      				lib_info = "Ecriture en cours..."
+      				
+      				// Complète jauge de progression
+      				JAUGE_GRAVURE..valeur 	= MesParamètres[4]	// Bloc/Piste en cours
+      				JAUGE_GRAVURE..BorneMax = MesParamètres[5]	// Blocs/Pistes au total
+      				fenrepeint()
+      				
+      			// Evénement inconnu
+      			AUTRE CAS
+      				lib_info = ""
+      				
+      		FIN	
+      		
+      	FIN
+     type : 458752
+   -
+     name : Evénement_FinGravure
+     procedure_id : 1752164386949774878
+     type_code : 14
+     code : |1-
+      // Résumé : Gère l'événement de fin de gravure
+      // Syntaxe :
+      // Evénement_FinGravure ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure Evénement_FinGravure()
+      
+      	// Relance la détection d'insertion de CD
+      	fDétecteStockageAmovible(Evénement_DétecteInsertionCD)
+     type : 458752
+   -
+     name : CacheAide
+     internal_properties : CAAAAAgAAABtuOYF3zJSMpP7aXDBX1xJ6axUJnxeSKIJGTuNWZInWqM5rZAB01Zq032sVpLLHakXbl4bJNBdiqWv2cGhzBrNderAz9ohZSV7RSFDwadIb5UpuryJKUK9jxJqOL663uqtcYY5MN4fia7zw7Ueic7ZfKbBgdAO9rdZHFlofVqdsV3NbAs=
+     procedure_id : 1752518038849365678
+     type_code : 14
+     code : |1-
+      // Résumé : Cache l'aide
+      // Syntaxe :
+      //CacheAide ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code, avec un différé de 15 secondes
+      // 
+      
+      Procédure CacheAide()
+      
+      	GR_AIDE..Visible = Faux
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fbe22a304b57505
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,99 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Graveur Lite
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Le projet a pour but de ...
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : CAAAAAgAAADhbLTPcp1Tnu06w4niCeVdH6PXhkSxw4ndfHFhJi1+WPmq8gPV33bLEeo+pMHoCucBVuRH3xKqywYQqj4nqLK0FFJKR0Sah1TMukDOlK3Z2MfE+ufjTYWF6NlXEYDpHjfrToASh+Z0S8fvMm8syxGuJbB8emIF/drxiRZU57OflGL4DmiRH7V8/NE00ZVWiE8FC3FVp7XfqaJb2U5hn6mkGwIJgme2iZtW6AL+mVMLLf4Dv9HTRFFL65ro7fdqElNC+KVdz2R0Cy7CDCHZ7wzKb2v5VEk2kk/3GZ3L2ET9YckLFsMdHKCwk9yFBHgHieiTQ1y7BowXIYAk2lj6yJ7InvLbqLzdyKC5xUNO62hMv0MaWONlb5kiJlUnZdmhJlH/Jf0Cx9N3n3ZUhql6jc+qvMSxy/j4zvy7fbgAV2InSzB4AzGW7vfHuo975GFTEf3IwiqkUPCmcPdjNnLwhAYId9egUnrWaNKIUKFEylcacMdomwFdhzLkDc9zmNdbIEMfN5CqoGlyQpPND4rjMVSIpsM6LwyBqWV/uTDi/X7kYjAC5Krz0j2Hfc/t0KQxKR7mP+641CoAhHXMPmlOH32Yns8fXOL1FBJ9/7rTZ9DlLq1YMlrz6VLQ2n1OFZhtMe0+0ydvuT6SmR5moI5BQ5DruyMcOI7IKPGP98dZQKc96PwmkU0GhTYHFmTvziVrb5MqmrvKZdsmIyJhrlnbQLpEyrPzLEk4xN3gjeoA4Cshp1tjcC4A6uB55lE+zpciOXkncvU8rD3mBP4uhWxxxQaKzYDQiSA9Fey22SeWGXrD0iRgVLLT5H69kZ+bGH3WrrC4+GOzBhL/pyueMF4gMYKEEs1kCox+5eNskEmMx8VTKzA0/saaPlf7mLbnfj7L53pzZjJeBtDQPShqzIQAgJVmAOtIUP6AKJRgcozCRY5BDWrp2ZbTcgD5bS1fMlLjgY02uXuPTMmFTEP7LBzYULBl4u5unOos7KfSXOTdPpXEPhm0jK4FynxJP7hLgRMXMLn2QTpAnXXgwhcS9l6HZ9KlSjTZJJDTGa7lBD/qptuAHqMuMftSVTvWR/y8qRyo+ACDqd8eARJz5w2DT5AQ+B/lLarawsJDvTqazVobVOzJq7F58CpngLniY2A+mTnKmEf1oE1EgjvhGD7FeQisEqm/diSks4XUU6cH/lXhbiDzPlTejSaC4ukeGAgy9sfEV8UaK3pa8JzJbdsrHFOyTuJOt5yTr9gBt6568cIQpLTEhaC7PDftKT/pZ2GFJctD/tBj+2Kd5zoKmasrajJzC0AvWOJPWWyjHxPnehnJ6Fmgob/L/S6g8OfsLR4lIVrDAo6nKShWiPerzlctn92k9GdotRupzlE2SIMcNYkyN0WGzORaDRV4xub+ciXeO28NIocv+1fql9MEHHD2a7vKfCpBWziW6gseXtaRpXY33fveDMjvxmE57PjGVFo/aRsN7VRHAgO+PcVwWXGKdH8qafvq6NfhGYX+pHXIaGuLqmWc6U8LmWZM6Z9qj+85Rs8zKafc9LRGwBquRMzYOdR364s+16T210ZE3CHBmgGdW74tueCWmhmBLhjEAkxHMNXByOCyv+l8A5Xr6SbZyqwg+5Gg0ToVI18lwJykfjyRQSF/Pcd4S2x9fImOEDAaLpxZc/MhDBSVo/yvwmCKp8Cx4gv1HR8ucUDnVStgc4s0rjJDtbJwIxwMouznG5Np9gLrqw7iuLCjT5EpHr8a9WHac+mNjqBcEChLrlMNFBOOnQVLCHt1ouNhLm9F0wzHfPpYs4kWn3LgsgAmf5QQzKUHFrSo3dJR8PfEG1V1hfQH3ouEa2ZDziOXX4lymB0aob1Z9If9HwzOFxB50lFh3zCAKxvo3U2t101kiaBI
+ configurations :
+  -
+    name : WD Graveur Lite
+    internal_properties : CAAAAAgAAACmv+7pQElioLG3uFPuqtUmxuM1Kiov1m4fakAJzzDNVSG2NWrqWaOLC0G9f6hlr8vbHPXA19huHZrU2brhlSFa79/H1XDuBibBVY/BI3RyW62A+d9zy70hF0datFOMImjr5E5sJFS7CN3mHgO4IRFoV2PoXSJCmQzPavGgprpzopXNR/AwKaUVFOK/ct3ab/2aOypWt8vXLMEj3JbW66Ea+tQu511xyZVG0tRFWzq8qdHrK847G8BWKttmXWWh1PnrfxZCdgJ4x6jlAhdlxS88Cba4TcjF+01pZjJ+Z8XHa5F5H6ZMncttSO3PMsttT8PW3pmDkb6I6wKRtCc3P/w65MEpakgRuXhJwe0AMTg9O1CD1cwLxat4K4zbQzX0l5i2dK28r82ZWEfOsAxWI01kocfP98/Fg8KkinzXCB+PiW/eonSAQS7c7foZJo0YQJ3P9ZcuW+ax69pLPJgppfAZh22kmNk4L/3EHrpvjoVWCy5rW5jBXvWsKGy9yxsy9/75hwfn64JXlJ6TYDIelSQCJfQVnWiYSB+fY//EmOWYRu6gwZD86R6qW1a0gmFQeh4BaI3Uq5a1XX/ax0wLXqxFzahpaHYjkQvBic1FZPCmXQF1uALasosQT+LIjBoDhDH5kII1wepB+qMtcaaYnarJlVxKgih1nLuptM0LUo/n5Yd/4wTElmGTSGSjS938xZY5OzSJeyTDsCo7CiJwlVfUEotAChS3OWUgT/q7Gp9jVK+IrBqej70/EWEG0bpcOzrZz45AgiFe3zaOcR6EBM1viqoLWZ3J7uS0/AavwSndDlMYbk9iCr5FoPTAgyzjLDpWhjQFvNlpMq8DuE0wg5HgUIbJXuO9zNWrxICskv/FJcOz5pAdDulpT86PC/oKNEqi1DJUR/QGzGFTe38xYA2OFjLvpIc68Ps3K50mWHdBuHexfkrvwQ8pgt9Jxm2/R34omwe4/h5r2UM/FTskQ5XVRRWh+k6zZQFoe9uluJIwUItm9n2CPDkE9LkXPn0q/HqmGC/BR0srevhP/YIKL3N1ifQB1+BkVzbslF1nBVEMWq26n4i1frzf6bhiQaMC5kSzp8BtGhquaJfrnXpf6smEOj8h67c/HMy2VWJRb3hy04SQBYB1f5d23XVwfE4/u77I3dwZcIaP908SHkhet0+1PPTNU9rkl3NON++Fdy19uLITYrSsAILk0Kxyba2KbgPRAXEI08mHzJs3fa72LM0AROZDq8ocdA+T1eJIlNaTLLZW+kGVc2z9kLafJ3h86zqN+YaWWFon7FSLSO9ooK5Z+lXKmXL67/fG+HpsjH+aZ10wEXvjFN9nh/ruQuWe2+FtxnFuGA2rzOMReHXkd9QS2aW5mHi6fcBceNY77QqQkiv9l+UoksF6TxagpSrM/KJPfrjGxyHwHPWAS4yVvMP5hSdpIU20qfPuEQmQCfRY3zInDVuC/fl8uyUoH4WjIwxzz+1P5Zc36TEW0g+JX6TAXQtdglgLsz2nb6vjIfoOaBjEsq4Xrp8LyiW0lacn10KIJ3wNA3sTt5SS8ELpDpu7enuD8snNWDSv02B39N942M5PLyeJlLTEP5M+Ie9/laga0WjtAqtYPF6BQLf/pkp5F+dGlSBVXPXnDID5d9hv4m57oHyVNGjpH7d+Ofk5tKyLqG+IdKkeK8SF6XZOITQUi9X9wkf5JeEFqgvGSkFfaSbpgJfkRv92IItHskwiVrq4kSv4Iw6CDbyxbtMNuJdxpFz9Gk1mP/O3NaIdWPvKzTTWSPAqaZQQSDSk+6hQZa2QwZK2i58ECOuecHc/9PhmThrjOcb/Ij4C//5JeUjbKBwnuPJq8adziMmPHX1iz4e4MHl8Dfx0zbSmVCfNDN51EUt+KCexlw+BEOCCmAYJHf3jYLqKc6feW/rMpB80wAp5lNUqeJrYGAAvsF5mloI1kmA8+lcX/AwvhZPFVOhh8ojdpCnvJzfWzrU+8AYVPj61ytGra5hbimWrWZvwjytV+YnZthEObuNc3uU8l0BfpUaH4YWgWjZ4TdoojPawmsSNPExV3eBQEZFErt8L7ET2fuwCARK5xRXyhPmc8atab9z8U0KhRie5f93hSubHhsQHXMYe59EnZ0cQSLJ15HYGnQi47v9x4UcjROP0gb7DyNB5XAI1BSmQ4eEIB6D7ftWvWMhMQ7oWMx/mNofdJtC8MqG5lr+QTJP4VT1kDrKpZzwLG+zyJLCf+GmbQsI0YyJx7LSmcPJ+vgRww+n2mOTVQvLtiJblovPy9DLjRB5Rzh89YbJhj0hFxvhctWcK9vTjtTNz5L0yphlVmbckZPxQrdDOSQNGaPEXzXxBO5ORpcFscVSxAGL1ypgkUyogA0QZO2/ZivxP0cjWcQiJlBbgUmxDRBk8txjBYb+u8cUyDVGy4n3uTYtogStCryaXn2xz6sHAsfvuHFmiMahla2lwijZ7jWiZgG1+Te1II6rDpW0kdR88Pm6HbfBbbD92QFzdWdgo94DNrmvPLYHrw5OOJJ4wI8iI93rHNGiljFBanbJbCFDq1nuY3UyhBuPEivt1xLvaWlVuFB3vfvUuYPwsZNg603T8Zn1aVUP04uXnuF2W4v7NTJlm0fw7R1bohk0z5azZTsVVQDQI5EXaqYzLw/+ZcXbnH+SUD5UssPNCVRs4O+UbNbb8EK6VkukJlVotA1cr21TPu1x5m1WYEqPKGIgiBvbC2Bvcya7DOYaYm4bmTSSiFuVGwurI3Sy6OPeOKPDwuTBCh/AboTxzMHblGsV2rlxED6RXQahRwq1VgeL3fvk7HDtAqSv64/5oBhOZlWE4DSyFLjNpEIHg0fTpQds5d5/27ZC21cC5zWbqFG1vFQESGc1yo2v61IeL3FnB1e1BBm3Oxcp5bBlWWLxPQs7fgfOlAuurKQiTBuintpYYtFWJ1gbAQXIxwzp9LlzyY1+/DOhdmNhYYxa+2nSnhf3Ie7WpFmCPORcULzOGb8+ddduWIygbqFYQFv2BOoV6pS+RBGjGSsiAOaavq00bMw71EEa/uZnofq2xE2plnxM+x9e43Ed0tZEik/E3UJ31I0vdIB4BXUQztgyI6MR15goofAgB6wAL11SKm+QBazv5QDOEtixP0BTwl+0UHOQuRlAMTaDO15xwX80g0q1lDdQjFetpwo4+tAImtSSDHI38Q4Ou0dpLbOPv2mBBCdpJz6op1tkmDcBojR1dlR1/f7Y87BIIe85nRRLdfL//mg9cWxcWUTOIgs7nSHt1lfy5uda1enDBJKq3bvo4IvD+1J5YOPBGQa50IOYkF1xLoI+a7RU8QcvKf0R8tfyc+kcVGn+9RsMv7KbTcu4TO5qtjdHU1EytEIMcAa8PbmqgIwgxYFL/0LBgoQOn3FHSgKs8asfsRS+Kj43k44LSFCE0olMNm3FYIekxm1cAt0Zoyay6acpTJKj2u5oW+2gxrR97K4+q60nAy0YR2MtofoywPoUtOwi008fTmeW9lIE4ryTYT4PoN8NW+wmlzIFK0sCayq63EIvjEgNOfeXt58z6vIAoOBZ0d6nvc5HAf0QGryLVSAuaT13ui3cCwTO351MYVn8JNrkPTI78gyJKzEbmrKtgHI3JNOjL/UsQJ5PCZfoAbxtPXMaiZ7xwW08mcqL5rUaapyOmPTdNBNlVsfpZJVJEqBsDHmRl5SEvunuhlBslGBrffMWldrQmr0Zebht7VSSWy8yhateU5/hdGeGg9jFTnWLRMo5A/CPxQG/dovQILwRBrlipPmtwke3/eR7P12Z6D23SryOuJbz7O6RScLUGehLEIUoxufXJTEzKh9XjJqTC661zENLbFvXHiZd2rk6EiTdfrCuO6Yep4Ts+SLzcCJPsMx5v2ycjbqrsD8HByMuezd02W6QzRMfAbvXfA5J3wBGKq+G1DBhJaZZRifuFn1gi4UQWzHFT2hob1Mloz0IrCB0hyqKj8j6lDTB2bMUi56m7DAmvyhu9IUVPU7kX5T48ASjrI4ZLMvSLTtvcuytTTHFUvVU/VtF4kvVR64dJIvPTgg7vghgjB4D19VnIfOAag+0X433+6VxvZkssB286MZ3UydsQ9cEUTn0vU6PxTovTjgRlLPpxjQtSrJxIxPl1FwfaStM6aXVoCVow0zBo5XPp5pt7Iinhedxy9IAh8oGIx3UMs/Nx/veafP7j7V+KgQGnHXdwBwWuYdy2/VAq42n6P4poDdkh3cOCoEx9mtufJlYGTeU6xESOaNERQ36vkHmrS9UUj32LyOiuOVqVMFrHMO2slSGsaHVEVqAVhig2sS7BWNMCLIa2kdJaqrqTXFZU9mb5VNXhcqUl6DAn5K7zoMlwQ3w/qZaoQINDNBmXzYqZzBKwz2pDpKT2H2Q9LlUzM48aDHp8WYGv8czxclRin6lmSwCXl4Wj5biIHVSFfbLFP6jO6ZGKCLbY2D80d1RdfPesbmUKP/yRlDgGS8y6t+X01TJAvAnLex8VpgNzJJdU01a0ZmzZRXn1b96zhKBaVht11NXupDPHEpDXSueUWPCiz3bWIL8aqDYKA1qQjfTNyKCOSHbHl9GLjdwGe6IOBl1CAQNFMnJr4oR1sIUykpqn8ObNdMhc87Mih15zlXZ5GFhEnyQddm1YBXGnzGBzHwXokx11d4bBSyxU7Yw+dp0+ZTur0Q==
+    configuration_id : 9646861089211600078
+    type : 1
+    generation_name : WD Graveur Lite.exe
+    version :
+     major_version : 21
+     internal_generation_version : 1
+    icon_filename : .\gravure.ico
+    language : 1
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAAAGno6qH0JVBtQb1f/H+Ik6ZrLnSmxbifLuEsEswsIBPTr3KHLYfPi+Afsy/duOACNWjArxE1xZz8Fr
+ elements :
+  identifier : 0x4ac47bd5000b4f6b
+  elements :
+   -
+     name : FEN_DOCK_GRAVEUR
+     identifier : 0x484fd21900014ce1
+     internal_properties : CAAAAAgAAAAWfH6iAX42OYZFNilsXSlCAlO5sZte3DFKbVCSXrHbbV9XWNjs16Ac31lDvUW7R7kDAw==
+     physical_name : .\FEN_DOCK_GRAVEUR.wdw
+     type : 2
+   -
+     name : Procedures globales de WD Graveur Lite
+     identifier : 0x484fd1740000c740
+     internal_properties : CAAAAAgAAACyiOo+DXoybUoJim0gEu3+zqEt3Qk0NhJObDfrxUpC1iqgE50ok2RgEw33wUG/uy2Xnw==
+     physical_name : .\Procedures globales de WD Graveur Lite.wdg
+     type : 7
+  other_elements :
+   -
+     physical_name : .\Images\type-bluray.png
+   -
+     physical_name : .\Images\type-cd.png
+   -
+     physical_name : .\Images\type-cda.png
+   -
+     physical_name : .\Images\type-dvd.png
+   -
+     physical_name : .\Images\dossier.gif
+   -
+     physical_name : .\Images\fichier.gif
+   -
+     physical_name : .\Images\graveur-pret.png
+   -
+     physical_name : .\Images\graveur-vide.png
+   -
+     physical_name : .\Images\cd.gif
+   -
+     physical_name : .\description.rtf
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAABj7BvKYih2cgLprMA/1qUY4vVZlOTNFSUeP94GPBAuphpq7adClGqIdmdpWLJbpdeOHyOWTKhWfBLX6WvNe7QnV1y/93ngJhXEXWUfbjBWhNuVA3mu0FLj
+  type_code : 0
+  p_codes :
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Graveur Lite
+     identifier : 0x4ac47bd6000e50f1
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

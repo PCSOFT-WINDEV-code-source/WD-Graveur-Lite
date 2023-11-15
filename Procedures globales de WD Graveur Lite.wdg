@@ -1,0 +1,68 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Procedures globales de WD Graveur Lite
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x184fd174000cc740
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : fTailleFormat
+     procedure_id : 1751908385425375601
+     type_code : 15
+     code : |1-
+      // Résumé : Renvoie la taille d'un fichier formatée
+      // Syntaxe :
+      //[ <Résultat> = ] fTailleFormat (<nTailleFichier> est entier sur 8 octets)
+      //
+      // Paramètres :
+      //	nTailleFichier (entier sur 8 octets) : Taille de fichier en octets
+      // Valeur de retour :
+      // 	chaîne : Taille formatée
+      //
+      Procédure fTailleFormat(local nTailleFichier est un entier sur 8)
+      
+      	selon nTailleFichier
+      		
+      		// Moins de 1Ko
+      		cas < 1024
+      			renvoyer NumériqueVersChaîne(nTailleFichier, "dS") + " octets"
+      			
+      		// Entre 1Ko et 1Mo
+      		cas 1024 <= * < 1024 ^ 2
+      			renvoyer NumériqueVersChaîne(arrondi(nTailleFichier / (1024 ^ 1), 1), ",1fS") + "Ko"
+      		
+      		// Entre 1Mo et 1Go
+      		CAS 1024 ^ 2 <= * < 1024 ^ 3
+      			RENVOYER NumériqueVersChaîne(Arrondi(nTailleFichier / (1024 ^ 2), 1), ",1fS") + "Mo"
+      		
+      		// Entre 1Go et 1To
+      		CAS 1024 ^ 3 <= * < 1024 ^ 4
+      			RENVOYER NumériqueVersChaîne(Arrondi(nTailleFichier / (1024 ^ 3), 1), ",1fS") + "Go"
+      			
+      		// Au delà de 1To
+      		CAS >= 1024 ^ 4
+      			RENVOYER NumériqueVersChaîne(Arrondi(nTailleFichier / (1024 ^ 4), 1), ",1fS") + "To"
+      	FIN
+      	
+      RENVOYER NumériqueVersChaîne(nTailleFichier, "dS") + " octets"
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x1fbe22a304b274f5
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
